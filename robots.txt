@@ -1,4 +1,0 @@
-User-agent:*
-allow:/
-
-Sitemap: https://www.aarea24.com/sitemap.xml
