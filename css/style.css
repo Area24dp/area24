@@ -304,7 +304,7 @@ img {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,15 +318,15 @@ img {
 .preloader .loader-text {
     font-size: 48px;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
 
 .preloader .loader-percentage {
-    font-size: 24px;
-    color: #666;
-    font-weight: 300;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
 }
 
 .scroll-to-top {
@@ -365,6 +365,7 @@ img {
     top: 0;
     z-index: 999;
     width: 100%;
+    background: white;
     transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
@@ -422,7 +423,7 @@ img {
 
 .main-header .header-upper {
     position: relative;
-    background: transparent;
+    background: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
     border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Subtle border */
     z-index: 5;
@@ -1679,20 +1680,18 @@ img {
 
 .services-block-two .inner-box {
     position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+    border: 1px solid #ddd;
     padding: 45px 45px 35px;
     min-height: 370px;
-    background: rgba(255, 255, 255, 0.1); /* Transparent glassy background */
-    backdrop-filter: blur(10px); /* Glass blur effect */
+    background: white;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
     transition: all 0.3s ease;
     border-radius: 15px; /* Slightly rounded corners for smoothness */
 }
 
 .services-block-two .inner-box:hover {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: rgba(185, 153, 118, 0.3); /* Subtle color tint on hover */
-    backdrop-filter: blur(15px); /* Stronger blur on hover */
+    border: 1px solid #b99976;
+    background: #b99976;
     box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
 }
 
@@ -1915,13 +1914,13 @@ img {
     height: 8px;
     margin: 0 3px;
     border-radius: 50%;
-    background: transparent;
+    background: #999;
     border: 1px solid #999
 }
 
 .projects-carousel .owl-theme .owl-dots .owl-dot.active span,
 .projects-carousel .owl-theme .owl-dots .owl-dot:hover span {
-    background: transparent;
+    background: #b19777;
     border: 1px solid #b19777
 }
 
@@ -1970,9 +1969,7 @@ img {
     height: auto;
     display: none;
     box-sizing: border-box;
-    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
-    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
-    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
+    background: rgba(0, 0, 0, 0.8);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -2059,7 +2056,7 @@ img {
 }
 
 .project-section .filters.style-two .filter-btns .filter {
-    border: 2px solid transparent;
+    border: none;
     padding: 2px 18px;
     margin: 0
 }
@@ -2107,9 +2104,7 @@ img {
     z-index: 20;
     height: auto;
     box-sizing: border-box;
-    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
-    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
-    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .7) 40%, rgba(0, 0, 0, .9) 100%);
+    background: rgba(0, 0, 0, 0.8);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -2515,7 +2510,7 @@ img {
 }
 
 .testimonial-section .owl-theme .owl-nav [class*=owl-]:hover {
-    background: transparent !important
+    background: none !important
 }
 
 .testimonial-section .owl-nav .owl-next {
@@ -5296,7 +5291,7 @@ img {
     display: table;
     vertical-align: middle;
     padding: 10px 0;
-    background: rgba(250, 41, 100, .75)
+    background: #fa2964
 }
 
 .gallery-block-two .overlay-box .overlay-inner .content {
@@ -5654,7 +5649,7 @@ img {
 }
 
 .theme-accordion .panel-default {
-    background: transparent;
+    background: white;
     border: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -5662,7 +5657,7 @@ img {
 }
 
 .theme-accordion .panel-heading {
-    background-color: transparent;
+    background-color: white;
     padding: 0;
     border-radius: 0
 }

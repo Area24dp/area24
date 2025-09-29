@@ -40,7 +40,6 @@
 	<!-- Preloader -->
 	<div id="preloader">
 		<div class="loader">
-			<div class="loader-text">AREA 24</div>
 			<div class="loader-percentage">0%</div>
 		</div>
 	</div>
@@ -317,7 +316,7 @@
 		<section class="certificates-section">
 			<div class="auto-container">
 				<div class="sec-title text-center">
-					<h2>Certificates & <span>Brand Logos</span></h2>
+					<h2>Certificates & <span class="theme_color">Brand Logos</span></h2>
 					<div class="separator"></div>
 					<div class="text">Trusted by leading brands and certified for quality.</div>
 				</div>
@@ -763,7 +762,7 @@
 				<div class="auto-container">
 					<div class="row clearfix">
 						<div class="column col-md-12 col-sm-12 col-xs-12">
-							<div class="copyright">Copyright &copy; 2024 <a href="index.html">Area 24</a>. All Rights
+							<div class="copyright">Copyright &copy; 2024 <a href="index.html"><span class="theme_color">AREA 24</span></a>. All Rights
 								Reserved. Design By <a href="https://digienter.com/">Digienter</a> </div>
 						</div>
 					</div>
@@ -861,17 +860,21 @@
 			
 			// Animate preloader percentage
 			var percentage = 0;
+			var startTime = Date.now();
 			var interval = setInterval(function() {
-				percentage += Math.random() * 15;
+				percentage += Math.random() * 10;
 				if (percentage >= 100) {
 					percentage = 100;
 					clearInterval(interval);
+					// Ensure minimum display time of 2 seconds
+					var elapsed = Date.now() - startTime;
+					var remaining = Math.max(0, 2000 - elapsed);
 					setTimeout(function() {
 						$('#preloader').fadeOut('slow');
-					}, 500);
+					}, remaining);
 				}
 				$('.loader-percentage').text(Math.round(percentage) + '%');
-			}, 100);
+			}, 150);
 		});
 	</script>
 </body>
