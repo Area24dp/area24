@@ -39,7 +39,10 @@
 <body>
 	<!-- Preloader -->
 	<div id="preloader">
-		<div class="loader"></div>
+		<div class="loader">
+			<div class="loader-text">AREA 24</div>
+			<div class="loader-percentage">0%</div>
+		</div>
 	</div>
 	<div class="page-wrapper">
 		<!-- Main Header-->
@@ -853,11 +856,22 @@
 	<script src="js/appear.js"></script>
 	<script src="js/script.js"></script>
 	<script>
-		$(window).on('load', function() {
-			$('#preloader').fadeOut('slow');
-		});
 		$(document).ready(function(){
 			$("#myModal").modal('show');
+			
+			// Animate preloader percentage
+			var percentage = 0;
+			var interval = setInterval(function() {
+				percentage += Math.random() * 15;
+				if (percentage >= 100) {
+					percentage = 100;
+					clearInterval(interval);
+					setTimeout(function() {
+						$('#preloader').fadeOut('slow');
+					}, 500);
+				}
+				$('.loader-percentage').text(Math.round(percentage) + '%');
+			}, 100);
 		});
 	</script>
 </body>

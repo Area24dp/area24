@@ -42,7 +42,7 @@ a,
 .sidebar-page-container .comments-area .comment .comment-reply,
 .sidebar .popular-posts .post a, .sidebar .popular-posts .post a:hover,
 .testimonial-widget .widget-content .inner .author .author-inner .designation{
-	color:#c8b499;
+	color:#808080;
 }
 
 /*Background Color*/
@@ -127,7 +127,7 @@ a,
 .project-section .filters.style-two .filter-btns .filter.active,
 .project-section .filters.style-two .filter-btns .filter:hover,
 .styled-pagination .inner-box li a:hover, .styled-pagination .inner-box li a.active{
-	border-color:#c8b499;
+	border-color:#808080;
 }
 
 /*RGBA Color Light*/
