@@ -379,10 +379,11 @@ img {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 0 0;
-    background: #fff;
+    padding: 5px 5px;
+    background: white;
     z-index: 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0px 0px 15px 15px;
     transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
@@ -390,8 +391,8 @@ img {
     -o-transition: all 300ms ease
 }
 
-.sticky-header .logo {
-    padding: 8px 0
+.sticky-header .logo img {
+    width: 153px;
 }
 
 .fixed-header .sticky-header {
@@ -550,21 +551,19 @@ img {
 }
 
 .sticky-header .main-menu .navigation {
-    padding-top: 0
+    padding-top: 15px
 }
 
 .main-menu .navigation>li {
     position: relative;
     float: left;
-    margin-right: 40px
+    margin-right: 50px
 }
 
-.main-menu .navigation>li:last-child {
-    margin-right: 0
-}
+
 
 .main-menu .navigation>li.home {
-    margin-right: 0
+    margin-right: 50px
 }
 
 .main-menu .navigation>li.home a {
@@ -581,7 +580,7 @@ img {
 }
 
 .main-header .sticky-header .main-menu .navigation>li {
-    margin: 0;
+    margin-right: 50px;
     border: 0
 }
 
@@ -647,10 +646,10 @@ img {
 }
 
 .main-header .sticky-header .main-menu .navigation>li>a {
-    color: #181818;
-    padding: 38px 15px !important;
+    color: #64615d;
+    padding: 20px 0 !important;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     min-height: 0;
     background: none;
