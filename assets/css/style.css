@@ -2995,8 +2995,23 @@ img {
     -o-transition: all 0.3s ease
 }
 
-.main-footer .link-widget ul li a:hover::before {
-    color: #000;
+.main-footer .link-widget ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.main-footer .link-widget ul li a:hover::after {
+    width: calc(100% - 22px);
+}
+
+.main-footer .link-widget ul li a:hover {
+    color: #fff;
 }
 
 .main-footer .link-widget ul li a:hover {
