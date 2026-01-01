@@ -226,8 +226,7 @@ li {
     font-weight: 500;
     text-transform: uppercase;
     border: 2px solid #B99976;
-    background: #B99976
-    text-transform: uppercase;
+    background: #B99976;
     border-radius: 30px; /* Adjust the value as needed */
     box-shadow: 0px 0px 15px rgba(185, 153, 118, 0.6);
 }
@@ -1331,7 +1330,16 @@ img {
 }
 
 .main-slider .tparrows.gyges:before {
-    line-height: 60px
+    line-height: 60px;
+    font-family: 'FontAwesome';
+}
+
+.main-slider .tparrows.gyges.tp-leftarrow:before {
+    content: '\f104';
+}
+
+.main-slider .tparrows.gyges.tp-rightarrow:before {
+    content: '\f105';
 }
 
 .main-slider .tparrows.gyges:hover {
