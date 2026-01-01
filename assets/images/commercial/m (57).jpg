@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Office Interiors - Area 24</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.default.css">
+    <link rel="stylesheet" href="assets/css/default-theme.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="main-header">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"></a></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-title">
+            <h1>Office Interiors</h1>
+        </section>
+
+        <section class="gallery-section">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <h2>Completed <span>Works</span></h2>
+                    <div class="separator"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><img src="assets/images/gallery/m (2).jpg" alt="Office Project" class="img-responsive"></div>
+                    <div class="col-md-4"><img src="assets/images/gallery/m (4).jpg" alt="Office Project" class="img-responsive"></div>
+                    <div class="col-md-4"><img src="assets/images/gallery/m (5).jpg" alt="Office Project" class="img-responsive"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="copyright">Copyright Copyright Copyright Copyright Copyright Copyright &copy; 2025copy; 2026copy; 2026copy; 2026copy; 2026copy; 2026 <a href="index.html">Area 24</a>.</div>
+        </footer>
+    </div>
+</body>
+
+</html>

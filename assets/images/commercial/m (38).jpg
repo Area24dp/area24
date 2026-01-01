@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Area24 Interiors - Architectural Design</title>
+    <meta name="description" content="Area 24 provides a complete range of Architectural Design services in in Anand, Amreli, Gift City, Himmatnagar, Ahmedabad which includes planning, designing and construction.">
+    <meta name="keywords" content="Best Interior Designer in Naroda, Best Interior Designer in Ahmedabad" />
+    <meta content="follow, index, ALL" name="robots" />
+    <meta name="author" content="area24.co">
+    <link rel="canonical" href="https://www.area24.co/architecturaldesign.html" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.png">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.default.css">
+
+    <!--Color Themes-->
+    <link rel="stylesheet" href="assets/css/default-theme.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Main Header-->
+        <header class="main-header">
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="auto-container clearfix">
+                    <div class="pull-left logo-outer">
+                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                    title="Area 24"></a></div>
+                    </div>
+                    <div class="pull-right upper-right clearfix">
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <div class="logo-r"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                            title="Area 24"></a></div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+<li class="dropdown"><a href="#">Services</a>
+                                <ul>
+                                    <li><a href="residentialdesign.html">Residential Design</a></li>
+                                    <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                    <li><a href="cafe-and-restaurant-design.html">Cafes & Restaurants Design</a></li>
+                                    <li><a href="turnkeysolutions.html">End-To-End Turnkey Solutions</a></li>
+                                    <li><a href="3ddesign-visualisation.html">3D Design & Visualisations</a></li>
+                                    <li><a href="3d2ddesign.html">2D Layout Planning</a></li>
+                                    <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li>
+                                </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Gallery</a>
+                                        <ul>
+                                            <li><a href="architecture.html">Architecture </a></li>
+                                            <li><a href="interiordesign.html">Interior Design</a></li>
+                                            <li><a href="landscape.html">Landscape </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+
+            <!--Sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container clearfix">
+                    <!--Logo-->
+                    <div class="logo pull-left">
+                        <a href="index.html" class="img-responsive"><img src="assets/images/logo.png" class="stic"
+                                alt="Area 24" title="Area 24"></a>
+                    </div>
+                    <!--Right Col-->
+                    <div class="right-col pull-right">
+
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <div class="logo-r"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                            title="Area 24"></a></div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+<li class="dropdown"><a href="#">Services</a>
+                                <ul>
+                                    <li><a href="residentialdesign.html">Residential Design</a></li>
+                                    <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                    <li><a href="cafe-and-restaurant-design.html">Cafes & Restaurants Design</a></li>
+                                    <li><a href="turnkeysolutions.html">End-To-End Turnkey Solutions</a></li>
+                                    <li><a href="3ddesign-visualisation.html">3D Design & Visualisations</a></li>
+                                    <li><a href="3d2ddesign.html">2D Layout Planning</a></li>
+                                    <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li>
+                                </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Gallery</a>
+                                        <ul>
+                                            <li><a href="architecture.html">Architecture </a></li>
+                                            <li><a href="interiordesign.html">Interior Design</a></li>
+                                            <li><a href="landscape.html">Landscape </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+
+                    </div>
+                </div>
+            </div>
+            <!--End Sticky Header-->
+
+        </header>
+        <!--End Main Header -->
+        <!--Page Title-->
+        <section class="page-title" style="background-image:url(assets/images/background/3.jpg)">
+            <div class="auto-container">
+                <h1>Architectural Design</h1>
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Architectural Design</li>
+                </ul>
+            </div>
+        </section>
+        <!--End Page Title-->
+
+        <!--Sidebar Page Container-->
+		<div class="sidebar-page-container">
+			<div class="auto-container">
+				<div class="row clearfix">
+
+					<!--Sidebar Side-->
+					<div class="sidebar-side col-md-4 col-sm-12 col-xs-12">
+						<aside class="sidebar left-sidebar">
+
+							<!--Category Blog-->
+							<div class="service-widget category-service">
+								<ul>
+                                    <li class="active"><a href="architecturaldesign.html">Architectural Design</a></li>
+                                    <li><a href="residentialdesign.html">Residential Design</a></li>
+                                    <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                    <li><a href="cafe-and-restaurant-design.html">Cafe's & Restaurant Design</a></li>
+                                    <li><a href="hotel-and-resort-design.html">Hotel & Resort Design</a></li>
+                                    <li><a href="farmhousedesign.html">Farm House Design</a></li>
+                                    <li><a href="hospital-and-school-design.html">Hospital & School Design</a></li>
+                                    <li><a href="designconsultancy.html">Design Consultancy</a></li>
+                                    <li><a href="3ddesign-visualisation.html">3d Design/Visualisation</a></li>
+                                    <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li>
+								</ul>
+							</div>
+
+							<!--Contact Info Widget-->
+							<div class="service-widget contact-info-widget">
+								<div class="inner-content">
+									<div class="icon-box">
+										<i class="fas fa-phone-alt"></i>
+									</div>
+									<div class="text">Got any questions? <br> Contact Us!</div>
+									<div class="number">+91 99797 88889</div>
+								</div>
+							</div>
+							<!--End Contact Widget-->
+
+						</aside>
+					</div>
+					
+					<!--Service Details-->
+					<div class="content-side col-md-8 col-sm-12 col-xs-12">
+						<div class="services-single">
+							<div class="inner-box">
+								<div class="image">
+									<img src="assets/images/services/service-1.jpg" alt="">
+								</div>
+								<div class="lower-content">
+									<h2>Architectural Design</h2>
+									<div class="text">Architectural design is the process of conceiving, planning, and creating the physical structure and layout of buildings and other structures. It involves a combination of artistic vision, technical expertise, and practical considerations to produce structures that are aesthetically pleasing, functional, and meet the needs of the users.</div>
+                                    <p>The process begins with a thorough understanding of the project requirements, client needs, and site conditions.
+                                        Architectural concepts are developed, often inspired by the project's purpose, cultural influences, and environmental considerations.
+                                        Creating initial design sketches and diagrams that illustrate the overall form and layout of the building.
+                                        Exploring different design options and presenting them to the client for feedback.</p>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+        <!--Call To Action-->
+        <section class="call-to-action">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-8 col-sm-12 col-xs-12">
+                        <h4 class="text">Our team is always here to help. Contact us today to learn how.</h4>
+                    </div>
+                    <div class="btn-column col-md-4 col-sm-12 col-xs-12">
+                        <a href="contact.html" class="theme-btn btn-style-six">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Call To Action-->
+
+        <!--Main Footer-->
+        <footer class="main-footer">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="column col-md-12 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget logo-widget">
+                                        <div class="logoo">
+                                            <a href="index.html"><img src="assets/images/logo.png" class="f-logo" alt=""></a>
+                                        </div>
+                                        <div class="widget-content">
+                                            <div class="text">At AREA 24 - The Interior Hub,we believe in the power of
+                                                quality craftsmanship and a meticulous approach to every project. </div>
+                                            <div class="widget-content">
+                                                <ul class="social-icon-two">
+                                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget link-widget">
+                                        <div class="footer-title">
+                                            <h2>Useful Links</h2>
+                                            <div class="separator"></div>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="interiordesign.html">Gallery</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget link-widget">
+                                        <div class="footer-title">
+                                            <h2>Services</h2>
+                                            <div class="separator"></div>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul>
+                                            <li><a href="residentialdesign.html">Residential Design</a></li>
+                                            <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                            <li><a href="cafe-and-restaurant-design.html">Cafes & Restaurants Design</a></li>
+                                            <li><a href="turnkeysolutions.html">End-To-End Turnkey solutions</a></li>
+                                            <li><a href="3ddesign-visualisation.html">3D Design & Visualisations</a></li>
+                                            <li><a href="3d2ddesign.html">2D Layout Planning</a></li>
+                                            <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Footer Column-->
+                                <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                                    <div class="footer-widget link-widget">
+                                        <div class="footer-title">
+                                            <h2>Contact Details</h2>
+                                            <div class="separator"></div>
+                                        </div>
+                                        <div class="widget-content">
+                                            <ul>
+                                                <li><span>Email:</span> <a
+                                                        href="mailto:info@area24.co">info@area24.co
+                                                    </a>
+                                                </li>
+                                                <li><span>Phone:</span><a href="tel:+919979788889">+91 99797 88889</a>
+                                                </li>
+                                                <li><span>Phone:</span><a href="tel:+919879408085">+91 98794 08085</a>
+                                                </li>
+                                                <li><span>Address:</span> Neelkanth Crystal Flats, I-2, Nr. SB Farm, New Shahibaug, Nana Chiloda, Ahmedabad, Gujarat 382330
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer Bottom-->
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="column col-md-12 col-sm-12 col-xs-12">
+                            <div class="copyright">Copyright &copy; 2026 <a href="index.html">Area 24</a>. All Rights Reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=919979788889&amp;source=&amp;data=">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="call">
+        <a href="tel:+919979788889">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <!--Revolution Slider-->
+    <script src="assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="assets/js/main-slider-script.js"></script>
+
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+    <script src="assets/js/jquery.fancybox-media.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/mixitup.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

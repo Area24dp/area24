@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Architecture Consulting - Area 24</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/plugins/revolution/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.default.css">
+    <link rel="stylesheet" href="assets/css/default-theme.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Main Header-->
+        <header class="main-header">
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="auto-container clearfix">
+                    <div class="pull-left logo-outer">
+                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                    title="Area 24"></a></div>
+                    </div>
+                    <div class="pull-right upper-right clearfix">
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <div class="logo-r"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                            title="Area 24"></a></div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+<li class="dropdown"><a href="#">Services</a>
+                                <ul>
+                                    <li><a href="residentialdesign.html">Residential Design</a></li>
+                                    <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                    <li><a href="cafe-and-restaurant-design.html">Cafes & Restaurants Design</a></li>
+                                    <li><a href="turnkeysolutions.html">End-To-End Turnkey Solutions</a></li>
+                                    <li><a href="3ddesign-visualisation.html">3D Design & Visualisations</a></li>
+                                    <li><a href="3d2ddesign.html">2D Layout Planning</a></li>
+                                    <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li>
+                                </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Gallery</a>
+                                        <ul>
+                                            <li><a href="architecture.html">Architecture </a></li>
+                                            <li><a href="interiordesign.html">Interior Design</a></li>
+                                            <li><a href="landscape.html">Landscape </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+
+            <!--Sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container clearfix">
+                    <!--Logo-->
+                    <div class="logo pull-left">
+                        <a href="index.html" class="img-responsive"><img src="assets/images/logo.png" class="stic"
+                                alt="Area 24" title="Area 24"></a>
+                    </div>
+                    <!--Right Col-->
+                    <div class="right-col pull-right">
+
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <div class="navbar-header">
+                                <div class="logo-r"><a href="index.html"><img src="assets/images/logo.png" alt="Area 24"
+                                            title="Area 24"></a></div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+<li class="dropdown"><a href="#">Services</a>
+                                <ul>
+                                    <li><a href="residentialdesign.html">Residential Design</a></li>
+                                    <li><a href="commercialdesign.html">Commercial Design</a></li>
+                                    <li><a href="cafe-and-restaurant-design.html">Cafes & Restaurants Design</a></li>
+                                    <li><a href="turnkeysolutions.html">End-To-End Turnkey Solutions</a></li>
+                                    <li><a href="3ddesign-visualisation.html">3D Design & Visualisations</a></li>
+                                    <li><a href="3d2ddesign.html">2D Layout Planning</a></li>
+                                    <li><a href="vastuconsultancy.html">Vastu Consultancy</a></li>
+                                </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Gallery</a>
+                                        <ul>
+                                            <li><a href="architecture.html">Architecture </a></li>
+                                            <li><a href="interiordesign.html">Interior Design</a></li>
+                                            <li><a href="landscape.html">Landscape </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+
+                    </div>
+                </div>
+            </div>
+            <!--End Sticky Header-->
+
+        </header>
+        <!--End Main Header -->
+
+        <section class="page-title">
+            <h1>Architecture Consulting</h1>
+        </section>
+
+        <section class="content-section">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <h2>Architecture <span>Consulting</span></h2>
+                    <div class="separator"></div>
+                    <p>Professional architecture consulting to bring your vision to life.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li>Site Analysis and Planning</li>
+                            <li>Design Development</li>
+                            <li>Regulatory Compliance</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Why Choose Us?</h3>
+                        <p>We provide expert guidance and innovative solutions for all your architectural needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="copyright">Copyright Copyright Copyright Copyright Copyright Copyright &copy; 2025copy; 2026copy; 2026copy; 2026copy; 2026copy; 2026 <a href="index.html">Area 24</a>.</div>
+        </footer>
+    </div>
+</body>
+
+</html>
