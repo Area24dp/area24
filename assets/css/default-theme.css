@@ -25,7 +25,7 @@ a,
 .team-member .inner-box .lower-box h3 a:hover,
 .services-block-four .inner-box .lower-box .read-more,
 .services-block-four .inner-box .lower-box h3 a:hover,
-.list-style-one li:before,
+.list-style-one li::before,
 .social-icon-four li a:hover,
 .news-block-three .inner-box .lower-box .share-icon:hover,
 .services-block-five .inner-box h3 a:hover,
@@ -45,59 +45,59 @@ a,
 	color:#808080;
 }
 
-/*Background Color*/
+/* Background Color */
 .btn-style-one,
 .btn-style-two:hover,
 .main-header .nav-outer,
-.services-title .separator:before,
-.services-title .separator:after,
+.services-title .separator::before,
+.services-title .separator::after,
 .services-title .separator .dott,
 .main-header .header-lower .bg-box,
-.services-block .inner-box:hover .lower-content h3:after,
+.services-block .inner-box:hover .lower-content h3::after,
 .sec-title .separator .dott,
-.sec-title .separator:before,
-.sec-title .separator:after,
+.sec-title .separator::before,
+.sec-title .separator::after,
 .btn-style-four:hover,
-.clients-section .title-box .separator:before,
-.clients-section .title-box .separator:after,
+.clients-section .title-box .separator::before,
+.clients-section .title-box .separator::after,
 .clients-section .title-box .separator .dott,
-.news-block .inner-box:hover .lower-box:after,
+.news-block .inner-box:hover .lower-box::after,
 .news-block .inner-box .image .post-date,
-.full-width-section .outer-box .title-column .content .separator:before,
-.full-width-section .outer-box .title-column .content .separator:after,
+.full-width-section .outer-box .title-column .content .separator::before,
+.full-width-section .outer-box .title-column .content .separator::after,
 .services-block-two .inner-box:hover,
 .sidebar .popular-tags a:hover,
-.sidebar-title .separator:after,
+.sidebar-title .separator::after,
 .sidebar .search-box .form-group button,
 .sidebar-title .separator .dott,
 .contact-info-widget .inner-content,
 .services-block-five .inner-box:hover .icon-box,
-.services-single .inner-box .lower-content .separator:after,
-.services-block-four .inner-box:hover .lower-box:after,
+.services-single .inner-box .lower-content .separator::after,
+.services-block-four .inner-box:hover .lower-box::after,
 .error-section .inner-container .home-btn:hover,
-.news-block-two .inner-box:hover .lower-box:after,
+.news-block-two .inner-box:hover .lower-box::after,
 .main-menu .navigation > li > ul > li:hover > a,
 .news-block-four .inner-box .image .post-date,
-.project-single-section .content-column .inner-column .text .separator:after,
-.news-block-three .inner-box:hover .lower-box:after,
+.project-single-section .content-column .inner-column .text .separator::after,
+.news-block-three .inner-box:hover .lower-box::after,
 .category-blog li.active a, .category-blog li a:hover,
 .main-menu .navigation > li > ul > li  > ul > li > a:hover,
-.news-block-four .inner-box:hover .lower-box:after,
+.news-block-four .inner-box:hover .lower-box::after,
 .main-header .sticky-header .main-menu .navigation > li.current-menu-item > a,
 .styled-pagination .inner-box li a:hover, .styled-pagination .inner-box li a.active,
-.sidebar-page-container .group-title .separator:after,
+.sidebar-page-container .group-title .separator::after,
 .main-slider .tparrows.gyges:hover,
-.contact-section .form-column .form-title .separator:after{
+.contact-section .form-column .form-title .separator::after{
 	background-color:#b99976;
 }
 
 .call-to-action,
-.main-footer .footer-widget .footer-title .separator:before {
+.main-footer .footer-widget .footer-title .separator::before {
 	background-color:#B99976;	
 }
 
 
-/*Border Color*/
+/* Border Color */
 
 .btn-style-one,
 .btn-style-two:hover,
@@ -130,16 +130,15 @@ a,
 	border-color:#808080;
 }
 
-/*RGBA Color Light*/
+/* RGBA Color Light */
 .gallery-block .inner-box .image .overlay-box,
 .news-block-two .inner-box .image .overlay-box,
 .services-block-four .inner-box .image .overlay-box,
 .gallery-block-two .overlay-box .overlay-inner{
-	background-color:rgba(250,41,100,0.75);
+	background-color:rgb(250 41 100 / 75%);
 }
 
-@media only screen and (max-width: 767px){
-	
+@media only screen and (width <= 767px){
 	.main-menu .navbar-header .navbar-toggle{
 		border-color:#232323;
 		background-color:#232323 !important;
@@ -173,7 +172,7 @@ a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		color:#ffffff;
+		color:#fff;
 	}
 	
 }

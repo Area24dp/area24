@@ -1,5 +1,13 @@
 {
+  "name": "area24",
+  "version": "1.0.0",
+  "description": "Area24 Architecture and Interior Design Website",
+  "scripts": {
+    "lint": "stylelint 'assets/css/*.css'",
+    "dev": "python3 -m http.server 8000"
+  },
   "devDependencies": {
+    "stylelint": "^16.0.0",
     "stylelint-config-standard": "^39.0.1"
   }
 }

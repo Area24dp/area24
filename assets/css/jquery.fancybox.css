@@ -29,8 +29,8 @@
 	background: #f9f9f9;
 	color: #444;
 	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
+	border-radius: 4px;
+	   border-radius: 4px;
 	        border-radius: 4px;
 }
 
@@ -39,9 +39,9 @@
 }
 
 .fancybox-opened .fancybox-skin {
-	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 10px 25px rgb(0 0 0 / 50%);
+	   box-shadow: 0 10px 25px rgb(0 0 0 / 50%);
+	        box-shadow: 0 10px 25px rgb(0 0 0 / 50%);
 }
 
 .fancybox-outer, .fancybox-inner {
@@ -115,7 +115,7 @@
 	cursor: pointer;
 	text-decoration: none;
 	background: transparent url('../images/fancybox/blank.gif'); /* helps IE */
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgb(0 0 0 / 0%);
 	z-index: 8040;
 }
 
@@ -226,9 +226,9 @@
 	margin-right: -100%;
 	padding: 2px 20px;
 	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
-	background: rgba(0, 0, 0, 0.8);
-	-webkit-border-radius: 15px;
-	   -moz-border-radius: 15px;
+	background: rgb(0 0 0 / 80%);
+	border-radius: 15px;
+	   border-radius: 15px;
 	        border-radius: 15px;
 	text-shadow: 0 1px 2px #222;
 	color: #FFF;
@@ -254,21 +254,20 @@
 	color: #fff;
 	padding: 10px;
 	background: #000;
-	background: rgba(0, 0, 0, .8);
+	background: rgb(0 0 0 / 80%);
 }
 
-/*Retina graphics!*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-	   only screen and (min--moz-device-pixel-ratio: 1.5),
+/* Retina graphics! */
+@media only screen and (min-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
-
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
 		background-image: url('../images/fancybox/fancybox_sprite@2x.png');
-		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+		background-size: 44px 152px; /* The size of the normal image, half the size of the hi-res image */
 	}
 
 	#fancybox-loading div {
 		background-image: url('../images/fancybox/fancybox_loading@2x.gif');
-		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
+		background-size: 24px 24px; /* The size of the normal image, half the size of the hi-res image */
 	}
 }

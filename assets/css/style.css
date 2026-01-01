@@ -1,10 +1,10 @@
-@import url(font-awesome.css);
-@import url(flaticon.css);
-@import url(animate.css);
-@import url(owl.css);
-@import url(jquery.fancybox.css);
-@import url(hover.css);
-@import url(jquery-ui.css);
+@import url("font-awesome.css");
+@import url("flaticon.css");
+@import url("animate.css");
+@import url("owl.css");
+@import url("jquery.fancybox.css");
+@import url("hover.css");
+@import url("jquery-ui.css");
 
 * {
     margin: 0;
@@ -33,7 +33,7 @@ a {
 }
 
 .no-padding {
-    padding: 0px !important
+    padding: 0 !important
 }
 
 a:hover,
@@ -60,7 +60,7 @@ p,
 .text {
     position: relative;
     line-height: 1.8em;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .strike-through {
@@ -96,7 +96,7 @@ p,
     line-height: 1em
 }
 
-.list-style-one li:before {
+.list-style-one li::before {
     position: absolute;
     content: '\f101';
     left: 0;
@@ -169,14 +169,14 @@ li {
 .theme-btn {
     display: inline-block;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .grey-bg {
-    background: url(../images/background/texture-1.jpg);
+    background: url("../images/background/texture-1.jpg");
     background-color: #f2eee9
 }
 
@@ -184,14 +184,12 @@ li {
     position: relative;
     padding: 11px 34px;
     line-height: 24px;
-    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
-   color: #ffffff;
-
+   color: #fff;
     text-transform: uppercase;
     border-radius: 30px; /* Adjust the value as needed */
-    box-shadow: 0px 0px 15px rgba(185, 153, 118, 0.6);
+    box-shadow: 0 0 15px rgb(185 153 118 / 60%);
 
 }
 
@@ -228,12 +226,12 @@ li {
     border: 2px solid #B99976;
     background: #B99976;
     border-radius: 30px; /* Adjust the value as needed */
-    box-shadow: 0px 0px 15px rgba(185, 153, 118, 0.6);
+    box-shadow: 0 0 15px rgb(185 153 118 / 60%);
 }
 
 .btn-style-three:hover {
-    background: #ffffff;
-    color: #000000;
+    background: #fff;
+    color: #000;
     border-color: #181818
 }
 
@@ -344,18 +342,18 @@ img {
     border-radius: 50%;
     background: #B99976;
     display: none;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
     transition: all 300ms ease;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    box-shadow: rgb(0 0 0 / 9%) 0 2px 1px, rgb(0 0 0 / 9%) 0 4px 2px, rgb(0 0 0 / 9%) 0 8px 4px, rgb(0 0 0 / 9%) 0 16px 8px, rgb(0 0 0 / 9%) 0 32px 16px;
 }
 
 .scroll-to-top:hover {
     color: #fff;
-    background: rgba(204, 90, 34, .9);
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background: rgb(204 90 34 / 90%);
+    box-shadow: rgb(0 0 0 / 9%) 0 2px 1px, rgb(0 0 0 / 9%) 0 4px 2px, rgb(0 0 0 / 9%) 0 8px 4px, rgb(0 0 0 / 9%) 0 16px 8px, rgb(0 0 0 / 9%) 0 32px 16px;
 }
 
 .main-header {
@@ -365,10 +363,10 @@ img {
     z-index: 999;
     width: 100%;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .sticky-header {
@@ -378,16 +376,16 @@ img {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 5px 5px;
+    padding: 5px;
     background: white;
     z-index: 0;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 0px 0px 15px 15px;
+    border-bottom: 2px solid rgb(255 255 255 / 20%);
+    border-radius: 0 0 15px 15px;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .sticky-header .logo img {
@@ -398,35 +396,35 @@ img {
     z-index: 999;
     opacity: 1;
     visibility: visible;
-    -ms-animation-name: fadeInDown;
-    -moz-animation-name: fadeInDown;
-    -op-animation-name: fadeInDown;
-    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    -ms-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    -op-animation-duration: 500ms;
-    -webkit-animation-duration: 500ms;
+    animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-name: fadeInDown;
     animation-duration: 500ms;
-    -ms-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-    -op-animation-timing-function: linear;
-    -webkit-animation-timing-function: linear;
+    animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: 500ms;
     animation-timing-function: linear;
-    -ms-animation-iteration-count: 1;
-    -moz-animation-iteration-count: 1;
-    -op-animation-iteration-count: 1;
-    -webkit-animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-iteration-count: 1;
     animation-iteration-count: 1
 }
 
 .main-header .header-upper {
     position: relative;
     background: white;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    border-bottom: 2px solid rgb(255 255 255 / 20%); /* Subtle border */
     z-index: 5;
-    padding: 5px 5px; /* Adds spacing */
-    border-radius: 0px 0px 15px 15px; /* Curved bottom corners */
+    padding: 5px; /* Adds spacing */
+    border-radius: 0 0 15px 15px; /* Curved bottom corners */
     transition: all 300ms ease-in-out;
 }
 
@@ -440,6 +438,7 @@ img {
 .main-header .logo-outer {
     position: relative;
     z-index: 25;
+
     /* padding: 25px 0 */
 }
 
@@ -462,7 +461,7 @@ img {
     padding: 0 30px 0 50px
 }
 
-.main-header .info-box:after {
+.main-header .info-box::after {
     position: absolute;
     content: '';
     right: 0;
@@ -490,10 +489,10 @@ img {
     font-size: 34px;
     text-align: left;
     line-height: 1.2em;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -504,7 +503,7 @@ img {
     font-size: 16px;
     margin-bottom: 3px;
     font-weight: 400;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .main-header .info-box strong {
@@ -587,7 +586,7 @@ img {
     color: #B99976
 }
 
-.main-menu .navigation>li>a:after {
+.main-menu .navigation>li>a::after {
     display: block;
     position: relative;
     content: '';
@@ -596,7 +595,7 @@ img {
     background-color: transparent
 }
 
-.main-menu .navigation>li.current>a:after {
+.main-menu .navigation>li.current>a::after {
     display: block;
     position: relative;
     content: '';
@@ -614,24 +613,24 @@ img {
     font-weight: 600;
     opacity: 1;
     text-transform: uppercase;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .main-menu .navigation>li>a:hover {
     color: #B99976;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
-.main-menu .navigation>li>a:hover:after {
+.main-menu .navigation>li>a:hover::after {
     display: block;
     position: relative;
     content: '';
@@ -655,7 +654,7 @@ img {
     border: 0;
 }
 
-.sticky-header .main-menu .navigation>li>a:before {
+.sticky-header .main-menu .navigation>li>a::before {
     display: none
 }
 
@@ -672,7 +671,7 @@ img {
     opacity: 1
 }
 
-.main-menu .navigation>li:hover>a:after {
+.main-menu .navigation>li:hover>a::after {
     opacity: 1
 }
 
@@ -681,21 +680,21 @@ img {
     left: 0;
     top: 120%;
     width: 240px;
-    padding: 0 0;
+    padding: 0;
     z-index: 100;
     display: none;
     background: #34322d;
     border-bottom: 2px solid #B99976;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05)
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%)
 }
 
 .main-menu .navigation>li>ul.from-right {
@@ -721,17 +720,17 @@ img {
     font-size: 15px;
     color: #fff;
     text-align: left;
-    padding-right: 0px !important;
+    padding-right: 0 !important;
     text-transform: capitalize;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    font-family: 'Barlow', sans-serif
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Barlow, sans-serif
 }
 
-.main-menu .navigation>li>ul>li.dropdown>a:before {
+.main-menu .navigation>li>ul>li.dropdown>a::before {
     content: '\f105';
     position: absolute;
     right: 18px;
@@ -741,10 +740,10 @@ img {
     font-size: 16px;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .main-menu .navigation>li>ul>li:hover>a {
@@ -752,7 +751,7 @@ img {
     background-color: #B99976
 }
 
-.main-menu .navigation>li>ul>li:hover>a:before {
+.main-menu .navigation>li>ul>li:hover>a::before {
     color: #fff;
     opacity: 1
 }
@@ -762,21 +761,21 @@ img {
     left: 100%;
     top: 0;
     width: 240px;
-    padding: 0 0;
+    padding: 0;
     z-index: 100;
     display: none;
     background: #131d33;
     border-bottom: 2px solid #B99976;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05)
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%)
 }
 
 .main-menu .navigation>li>ul>li>ul>li {
@@ -797,14 +796,14 @@ img {
     font-size: 15px;
     color: #fff;
     text-align: left;
-    padding-right: 0px !important;
+    padding-right: 0 !important;
     text-transform: capitalize;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    font-family: 'Barlow', sans-serif
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Barlow, sans-serif
 }
 
 .main-menu .navigation>li>ul>li>ul>li>a:hover {
@@ -812,7 +811,7 @@ img {
     background-color: #B99976
 }
 
-.main-menu .navigation>li>ul>li>ul>li:hover>a:before {
+.main-menu .navigation>li>ul>li>ul>li:hover>a::before {
     border-color: #fff
 }
 
@@ -826,10 +825,10 @@ img {
     visibility: visible;
     opacity: 1;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
@@ -861,7 +860,7 @@ img {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    background-color: rgba(30, 30, 30, .3);
+    background-color: rgb(30 30 30 / 30%);
     text-transform: uppercase
 }
 
@@ -870,7 +869,7 @@ img {
 }
 
 .main-header .outer-box .consult-btn:hover {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgb(0 0 0 / 50%)
 }
 
 .header-top {
@@ -895,11 +894,11 @@ img {
 .header-top .top-left ul li a {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, .7);
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    color: rgb(255 255 255 / 70%);
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -921,10 +920,10 @@ img {
     font-weight: 400;
     background: inherit;
     color: #afafb5;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -939,10 +938,10 @@ img {
     color: #ccc;
     font-size: 15px;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .header-top .top-right .social-links a:hover {
@@ -968,10 +967,10 @@ img {
     cursor: pointer;
     background: none;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .main-header .header-upper .search-box-outer .dropdown-menu {
@@ -1010,10 +1009,10 @@ img {
     background: #fff;
     border: 1px solid #e0e0e0;
     padding: 7px 40px 7px 15px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -1039,10 +1038,10 @@ img {
     position: relative;
     margin-top: 20px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .social-icon-one li {
@@ -1056,10 +1055,10 @@ img {
     position: relative;
     color: #777;
     font-size: 16px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -1071,10 +1070,10 @@ img {
     position: relative;
     margin-top: 15px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .social-icon-two li {
@@ -1088,10 +1087,10 @@ img {
     position: relative;
     color: #fff;
     font-size: 24px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -1118,10 +1117,10 @@ img {
     color: #666;
     font-size: 20px;
     line-height: 54px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -1134,10 +1133,10 @@ img {
     position: relative;
     display: inline-block;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .social-icon-four li {
@@ -1151,10 +1150,10 @@ img {
     position: relative;
     color: #B99976;
     font-size: 14px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -1183,13 +1182,12 @@ img {
     color: #333
 }
 
-.form-group .ui-button .ui-icon:before {
+.form-group .ui-button .ui-icon::before {
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     content: "\f107";
     position: absolute;
     right: 0;
     top: 2px !important;
-    top: 13px;
     width: 10px;
     height: 30px;
     display: block;
@@ -1272,7 +1270,7 @@ img {
     margin: 20px auto 0 !important
 }
 
-.sec-title .separator:before {
+.sec-title .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1302,8 +1300,8 @@ img {
     padding-bottom: 0
 }
 
-.main-slider:before {
-    background: rgba(0, 0, 0, .5);
+.main-slider::before {
+    background: rgb(0 0 0 / 50%);
     width: 100%;
     height: 100%
 }
@@ -1318,27 +1316,27 @@ img {
 }
 
 .main-slider .tp-dottedoverlay {
-    background: rgba(0, 0, 0, .4) !important
+    background: rgb(0 0 0 / 40%) !important
 }
 
 .main-slider .tparrows.gyges {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(255 255 255 / 20%);
     border-radius: 50%; /* Makes it a perfect circle */
 }
 
-.main-slider .tparrows.gyges:before {
+.main-slider .tparrows.gyges::before {
     line-height: 60px;
-    font-family: 'FontAwesome';
+    font-family: FontAwesome;
 }
 
-.main-slider .tparrows.gyges.tp-leftarrow:before {
+.main-slider .tparrows.gyges.tp-leftarrow::before {
     content: '\f104';
 }
 
-.main-slider .tparrows.gyges.tp-rightarrow:before {
+.main-slider .tparrows.gyges.tp-rightarrow::before {
     content: '\f105';
 }
 
@@ -1382,7 +1380,7 @@ img {
     line-height: 1.2em
 }
 
-.main-slider .dark-heading:after {
+.main-slider .dark-heading::after {
     display: none
 }
 
@@ -1394,7 +1392,7 @@ img {
     line-height: 1.2em
 }
 
-.main-slider .white-heading:after {
+.main-slider .white-heading::after {
     display: none
 }
 
@@ -1417,7 +1415,7 @@ img {
 .slider-content {
     position: relative;
     padding: 35px 30px;
-    background-color: rgba(0, 0, 0, .6)
+    background-color: rgb(0 0 0 / 60%)
 }
 
 .slider-content h3 {
@@ -1428,10 +1426,10 @@ img {
     font-weight: 700;
     padding-bottom: 18px;
     margin-bottom: 25px;
-    border-bottom: 1px solid rgba(255, 255, 255, .2)
+    border-bottom: 1px solid rgb(255 255 255 / 20%)
 }
 
-.slider-content h3:after {
+.slider-content h3::after {
     position: absolute;
     content: '';
     width: 70px;
@@ -1464,8 +1462,8 @@ img {
     text-align: center
 }
 
-.fancybox-next span:before,
-.fancybox-prev span:before {
+.fancybox-next span::before,
+.fancybox-prev span::before {
     content: '';
     position: absolute;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
@@ -1475,27 +1473,27 @@ img {
     width: 44px !important;
     height: 44px !important;
     line-height: 44px !important;
-    background-color: rgba(28, 28, 28, .4) !important;
+    background-color: rgb(28 28 28 / 40%) !important;
     color: #fff;
     visibility: visible;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
-.fancybox-next span:before {
+.fancybox-next span::before {
     content: '\f061'
 }
 
-.fancybox-prev span:before {
+.fancybox-prev span::before {
     content: '\f060'
 }
 
-.fancybox-next:hover span:before,
-.fancybox-prev:hover span:before {
-    background-color: #ffffff !important;
+.fancybox-next:hover span::before,
+.fancybox-prev:hover span::before {
+    background-color: #fff !important;
     color: #000
 }
 
@@ -1504,16 +1502,16 @@ img {
     top: 0;
     width: 45px;
     height: 45px;
-    background: url(../images/icons/icon-cross.png) center center no-repeat;
-    background-color: rgba(17, 17, 17, .5) !important
+    background: url("../images/icons/icon-cross.png") center center no-repeat;
+    background-color: rgb(17 17 17 / 50%) !important
 }
 
 .fancybox-type-image .fancybox-close:hover {
-    background-color: #000000 !important
+    background-color: #000 !important
 }
 
 .fancybox-type-image .fancybox-skin {
-    padding: 0px !important
+    padding: 0 !important
 }
 
 .services-section {
@@ -1559,7 +1557,7 @@ img {
     text-align: center
 }
 
-.services-title .separator:before {
+.services-title .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1608,17 +1606,17 @@ img {
     position: relative;
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .services-block .inner-box .lower-content h3 a:hover {
     color: #B99976
 }
 
-.services-block .inner-box .lower-content h3:after {
+.services-block .inner-box .lower-content h3::after {
     position: absolute;
     content: '';
     left: 50%;
@@ -1628,10 +1626,10 @@ img {
     margin-left: -20px;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .services-block .inner-box .lower-content .text {
@@ -1641,7 +1639,7 @@ img {
     font-weight: 400
 }
 
-.services-block .inner-box:hover .lower-content h3:after {
+.services-block .inner-box:hover .lower-content h3::after {
     width: 100%;
     margin: 0;
     left: 0%;
@@ -1666,7 +1664,7 @@ img {
     margin-top: -100px
 }
 
-.services-section-two:before {
+.services-section-two::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1685,20 +1683,20 @@ img {
 
 .services-block-two .inner-box {
     position: relative;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+    border: 1px solid rgb(255 255 255 / 20%); /* Light border for glass effect */
     padding: 45px 45px 35px;
     min-height: 370px;
     background: white;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    box-shadow: 0 5px 30px rgb(0 0 0 / 20%); /* Soft shadow for depth */
     transition: all 0.3s ease;
     border-radius: 15px; /* Slightly rounded corners for smoothness */
 }
 
 .services-block-two .inner-box:hover {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: rgba(185, 153, 118, 0.3); /* Subtle color tint on hover */
+    border: 1px solid rgb(255 255 255 / 30%);
+    background: rgb(185 153 118 / 30%); /* Subtle color tint on hover */
     backdrop-filter: blur(15px); /* Stronger blur on hover */
-    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+    box-shadow: 0 8px 35px rgb(0 0 0 / 25%); /* Stronger shadow on hover */
 }
 
 .services-block-two .inner-box .icon-box {
@@ -1728,7 +1726,7 @@ img {
 
 .services-block-two .inner-box .text {
     position: relative;
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
     line-height: 1.8em;
     margin-bottom: 15px;
@@ -1769,16 +1767,16 @@ img {
 }
 
 .services-block-two.style-two .inner-box:hover {
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 30%);
 }
 
 
-.services-section-two.style-two:before {
+.services-section-two.style-two::before {
     display: none
 }
 
 .services-section-two.style-two {
-    padding: 100px 0 120px 0
+    padding: 100px 0 120px
 }
 
 .counter-section {
@@ -1792,14 +1790,14 @@ img {
 
 .counter-section .fact-section {
     position: relative;
-    padding: 100px 0 80px 0;
+    padding: 100px 0 80px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom
 }
 
-.counter-section .fact-section:before {
+.counter-section .fact-section::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1807,7 +1805,7 @@ img {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(64, 62, 57, .8)
+    background-color: rgb(64 62 57 / 80%)
 }
 
 .fact-section .title-column {
@@ -1835,7 +1833,7 @@ img {
     border-left: 0
 }
 
-.fact-section .title-column .title-inner .number:before {
+.fact-section .title-column .title-inner .number::before {
     position: absolute;
     content: '';
     right: 0;
@@ -1845,7 +1843,7 @@ img {
     background-color: #B99976
 }
 
-.fact-section .title-column .title-inner .number:after {
+.fact-section .title-column .title-inner .number::after {
     position: absolute;
     content: '';
     right: 0;
@@ -1880,10 +1878,10 @@ img {
     position: relative;
     text-align: center;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .fact-counter .count-outer {
@@ -1891,7 +1889,7 @@ img {
     font-size: 36px;
     line-height: 1em;
     font-weight: 500;
-    margin: 0 0
+    margin: 0
 }
 
 .fact-counter .count-outer .count-text {
@@ -1907,7 +1905,7 @@ img {
     font-weight: 400;
     color: #f2eee9;
     margin-top: 8px;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .projects-carousel .owl-theme .owl-dots {
@@ -1937,15 +1935,14 @@ img {
     transition: all 0.3s ease;
     margin-bottom: 30px;
     border-radius: 30px; /* Rounded corners */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%); /* Soft shadow */
 }
 
 .projects-carousel .item:hover img {
-    -webkit-filter: none;
     filter: none;
-    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
-    -webkit-filter: brightness(70%);
+    transform: scale(1.1, 1.1);
+    filter: brightness(70%);
     transition: all 1s ease;
 }
 
@@ -1961,14 +1958,14 @@ img {
 }
 
 .projects-carousel .item img {
-    -webkit-transition: all .5s;
+    transition: all .5s;
     transition: all .5s
 }
 
 .projects-carousel .item .info {
     padding: 30px 15px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     width: 100%;
     text-align: center;
@@ -1976,11 +1973,11 @@ img {
     height: auto;
     display: none;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.8);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
+    background: rgb(0 0 0 / 80%);
+    transition: all 1s ease;
+    transition: all 1s ease;
+    transition: all 1s ease;
+    transition: all 1s ease;
     transition: all 1s ease
 }
 
@@ -2051,10 +2048,10 @@ img {
     display: inline-block;
     text-transform: capitalize;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .project-section .filters .filter-tabs .filter.active,
@@ -2080,15 +2077,14 @@ img {
 }
 
 .gallery-block .item:hover img {
-    -webkit-filter: none;
     filter: none;
-    -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
+    transform: scale(1.1, 1.1);
+    filter: brightness(70%);
+    transition: all 1s ease;
+    transition: all 1s ease;
+    transition: all 1s ease;
+    transition: all 1s ease;
     transition: all 1s ease
 }
 
@@ -2097,7 +2093,7 @@ img {
 }
 
 .gallery-block .item img {
-    -webkit-transition: all .5s;
+    transition: all .5s;
     transition: all .5s
 }
 
@@ -2111,11 +2107,11 @@ img {
     z-index: 20;
     height: auto;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.8);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
+    background: rgb(0 0 0 / 80%);
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
     transition: all 0.3s ease
 }
 
@@ -2172,7 +2168,7 @@ img {
     background-repeat: no-repeat
 }
 
-.full-width-section .outer-box .title-column:before {
+.full-width-section .outer-box .title-column::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2180,7 +2176,7 @@ img {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(0, 0, 0, .85)
+    background-color: rgb(0 0 0 / 85%)
 }
 
 .full-width-section .outer-box .title-column .content {
@@ -2188,7 +2184,7 @@ img {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding: 130px 15px 140px 15px
+    padding: 130px 15px 140px
 }
 
 .full-width-section .outer-box .title-column .content .separator {
@@ -2199,7 +2195,7 @@ img {
     margin-bottom: 25px
 }
 
-.full-width-section .outer-box .title-column .content .separator:before {
+.full-width-section .outer-box .title-column .content .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2209,7 +2205,7 @@ img {
     background-color: #B99976
 }
 
-.full-width-section .outer-box .title-column .content .separator:after {
+.full-width-section .outer-box .title-column .content .separator::after {
     position: absolute;
     content: '';
     right: 0;
@@ -2242,7 +2238,7 @@ img {
     font-size: 24px;
     font-weight: 300;
     line-height: 1em;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .full-width-section .outer-box .title-column .content h4 span {
@@ -2294,10 +2290,10 @@ img {
 .services-block-three .inner h3 a {
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .services-block-three .inner h3 a:hover {
@@ -2365,10 +2361,10 @@ img {
     position: relative;
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .team-member .inner-box .lower-box h3 a:hover {
@@ -2381,14 +2377,14 @@ img {
     font-size: 14px;
     padding-bottom: 15px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    font-family: 'Barlow', sans-serif
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: Barlow, sans-serif
 }
 
-.team-member .inner-box .lower-box .designation:after {
+.team-member .inner-box .lower-box .designation::after {
     position: absolute;
     width: 40px;
     content: '';
@@ -2398,10 +2394,10 @@ img {
     background-color: #B99976;
     margin-left: -20px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .team-member .inner-box .lower-box .social-icon-one {
@@ -2424,13 +2420,13 @@ img {
     border-bottom: 1px solid #B99976
 }
 
-.team-member .inner-box:hover .lower-box .designation:after {
+.team-member .inner-box:hover .lower-box .designation::after {
     opacity: 0
 }
 
 .testimonial-section {
     position: relative;
-    padding: 100px 0 120px 0;
+    padding: 100px 0 120px;
     background-color: #f0f0f0;
 }
 
@@ -2516,7 +2512,7 @@ img {
     color: #B99976
 }
 
-.testimonial-section .owl-theme .owl-nav [class*=owl-]:hover {
+.testimonial-section .owl-theme .owl-nav [class*="owl-"]:hover {
     background: none !important
 }
 
@@ -2550,7 +2546,7 @@ img {
     display: block
 }
 
-.news-block .inner-box .image:after {
+.news-block .inner-box .image::after {
     content: " ";
     display: block;
     width: 100%;
@@ -2567,8 +2563,8 @@ img {
     border-radius: 0
 }
 
-.news-block .inner-box:hover .image:after {
-    background: rgba(0, 0, 0, .1)
+.news-block .inner-box:hover .image::after {
+    background: rgb(0 0 0 / 10%)
 }
 
 .news-block .inner-box:hover .image>img {
@@ -2582,11 +2578,11 @@ img {
     padding: 25px 30px;
     background: #fff;
     width: 95%;
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%)
 }
 
-.news-block .inner-box .lower-box:after {
+.news-block .inner-box .lower-box::after {
     position: absolute;
     content: '';
     left: 0;
@@ -2595,13 +2591,13 @@ img {
     height: 1px;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.news-block .inner-box:hover .lower-box:after {
+.news-block .inner-box:hover .lower-box::after {
     width: 100%;
     background-color: #B99976
 }
@@ -2623,10 +2619,10 @@ img {
 .news-block .inner-box .lower-box h3 a {
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block .inner-box .lower-box h3 a:hover {
@@ -2648,10 +2644,10 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block .inner-box .lower-box .read-more .fa {
@@ -2672,7 +2668,7 @@ img {
     background-attachment: fixed
 }
 
-.consulting-section:before {
+.consulting-section::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2680,7 +2676,7 @@ img {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(0, 0, 0, .8)
+    background-color: rgb(0 0 0 / 80%)
 }
 
 .consulting-section .title-column {
@@ -2702,7 +2698,7 @@ img {
     border-right: 0
 }
 
-.consulting-section .title-column .box:before {
+.consulting-section .title-column .box::before {
     position: absolute;
     content: '';
     right: 0;
@@ -2712,7 +2708,7 @@ img {
     background-color: #fff
 }
 
-.consulting-section .title-column .box:after {
+.consulting-section .title-column .box::after {
     position: absolute;
     content: '';
     right: 0;
@@ -2775,10 +2771,10 @@ img {
     background: #fff;
     color: #333;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    font-family: 'Barlow', sans-serif
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: Barlow, sans-serif
 }
 
 .consult-form textarea {
@@ -2825,7 +2821,7 @@ img {
 }
 
 .clients-section .title-box .btns-box .theme-btn {
-    margin: 8px 8px
+    margin: 8px
 }
 
 .clients-section .title-box .separator {
@@ -2836,7 +2832,7 @@ img {
     margin: 0 auto 30px
 }
 
-.clients-section .title-box .separator:before {
+.clients-section .title-box .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2856,10 +2852,10 @@ img {
     position: relative;
     text-align: center;
     border: 1px solid #edf0f3;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -2875,6 +2871,7 @@ img {
 .call-to-action {
     position: relative;
     padding: 50px 0;
+
     /* background: url(../images/background/texture-4.jpg); */
     background-color: #B99976 !important;
     border: 1px solid white;
@@ -2896,6 +2893,7 @@ img {
 
 .main-footer {
     position: relative;
+
     /* background: url(../images/background/texture-3.jpg); */
     background-color: #444242;
 }
@@ -2924,7 +2922,7 @@ img {
     text-transform: uppercase
 }
 
-.main-footer .footer-widget .footer-title .separator:before {
+.main-footer .footer-widget .footer-title .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2970,7 +2968,7 @@ img {
     font-size: 15px;
     line-height: 1.7em;
     margin-bottom: 5px;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .main-footer .link-widget ul {
@@ -2983,7 +2981,7 @@ img {
     font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 5px;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .main-footer .link-widget ul li span {
@@ -2995,12 +2993,12 @@ img {
     color: #fff;
     font-size: 16px;
     padding-left: 22px;
-    font-family: 'Barlow', sans-serif;
+    font-family: Barlow, sans-serif;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .main-footer .link-widget ul li a::after {
@@ -3026,17 +3024,17 @@ img {
     color: #000;
 }
 
-.main-footer .link-widget ul li a:before {
+.main-footer .link-widget ul li a::before {
     position: absolute;
     content: '\f101';
     left: 0;
     top: -1px;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .main-footer .post-widget .post-block {
@@ -3066,10 +3064,10 @@ img {
 .main-footer .post-widget .post-block .inner h3 a {
     color: #fff;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .main-footer .post-widget .post-block .inner h3 a:hover {
@@ -3108,10 +3106,10 @@ img {
     color: #fff;
     background: none;
     border: 1px solid #555;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -3127,8 +3125,8 @@ img {
     border-color: #B99976
 }
 
-.main-footer .footer-form .form-group input::-webkit-input-placeholder,
-.main-footer .footer-form .form-group textarea::-webkit-input-placeholder {
+.main-footer .footer-form .form-group input::input-placeholder,
+.main-footer .footer-form .form-group textarea::input-placeholder {
     color: #666
 }
 
@@ -3148,7 +3146,7 @@ img {
     position: relative;
     color: #fff;
     font-size: 14px;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .main-footer .footer-bottom .copyright a {
@@ -3177,12 +3175,12 @@ img {
     position: relative;
     color: #cdc2b3;
     font-size: 14px;
-    font-family: 'Barlow', sans-serif;
+    font-family: Barlow, sans-serif;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .main-footer .footer-bottom .foter-nav li a:hover {
@@ -3195,12 +3193,12 @@ img {
     margin-right: 0
 }
 
-.page-title:before {
+.page-title::before {
     content: '';
-    background: -webkit-linear-gradient(top, #0a172b 55%, #B99976);
-    background: -moz-linear-gradient(top, #0a172b 55%, #B99976);
-    background: -o-linear-gradient(top, #0a172b 55%, #B99976);
-    background: -ms-linear-gradient(top, #0a172b 55%, #B99976);
+    background: linear-gradient(top, #0a172b 55%, #B99976);
+    background: linear-gradient(top, #0a172b 55%, #B99976);
+    background: linear-gradient(top, #0a172b 55%, #B99976);
+    background: linear-gradient(top, #0a172b 55%, #B99976);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(55%, #0a172b), to(#B99976));
     background: linear-gradient(top, #0a172b 55%, #B99976);
     width: 100%;
@@ -3214,7 +3212,7 @@ img {
 .page-title {
     position: relative;
     color: #fff;
-    padding: 0 0 50px 0;
+    padding: 0 0 50px;
     background-color: #fafafa;
     background-size: cover;
     background-position: center center;
@@ -3252,7 +3250,7 @@ img {
     text-transform: capitalize
 }
 
-.page-title .bread-crumb li:before {
+.page-title .bread-crumb li::before {
     content: '\f054';
     position: absolute;
     right: -26px;
@@ -3268,17 +3266,17 @@ img {
     margin-left: 0
 }
 
-.page-title .bread-crumb li:last-child:before {
+.page-title .bread-crumb li:last-child::before {
     display: none
 }
 
 .page-title .bread-crumb li a {
     color: #eee;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .page-title .bread-crumb li a:hover {
@@ -3287,7 +3285,7 @@ img {
 
 .about-section {
     position: relative;
-    padding: 100px 0 110px 0
+    padding: 100px 0 110px
 }
 
 .about-section-home {
@@ -3340,15 +3338,15 @@ img {
     padding: 50px;
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 2;
-    -webkit-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15);
-    -moz-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15);
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15)
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%)
 }
 
 .about-details-image {
@@ -3368,7 +3366,7 @@ img {
 }
 
 .news-section-two {
-    background: url(../images/background/texture-2.jpg);
+    background: url("../images/background/texture-2.jpg");
     background-color: #B99976;
     position: relative;
     padding: 100px 0
@@ -3382,8 +3380,8 @@ img {
     position: relative;
     background: #fff;
     padding: 40px 30px;
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%);
     min-height: 260px
 }
 
@@ -3410,11 +3408,11 @@ img {
     opacity: 0;
     text-align: center;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    background-color: rgba(250, 41, 100, .75)
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: rgb(250 41 100 / 75%)
 }
 
 .news-block-two .inner-box .image .overlay-box .icon {
@@ -3434,7 +3432,7 @@ img {
     padding-bottom: 15px
 }
 
-.news-block-two .inner-box .lower-box:after {
+.news-block-two .inner-box .lower-box::after {
     position: absolute;
     content: '';
     left: 0;
@@ -3443,13 +3441,13 @@ img {
     height: 1px;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.news-block-two .inner-box:hover .lower-box:after {
+.news-block-two .inner-box:hover .lower-box::after {
     width: 100%;
     display: block;
     background-color: #B99976
@@ -3469,10 +3467,10 @@ img {
     position: relative;
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-two .inner-box .lower-box h3 a:hover {
@@ -3529,9 +3527,9 @@ img {
 
 .award-section .slider-column .award-box .image {
     position: relative;
-    -webkit-box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1);
-    -moz-box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1);
-    box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1)
+    box-shadow: 0 0 14px 0 rgb(204 204 204 / 100%);
+    box-shadow: 0 0 14px 0 rgb(204 204 204 / 100%);
+    box-shadow: 0 0 14px 0 rgb(204 204 204 / 100%)
 }
 
 .award-section .slider-column .award-box .image img {
@@ -3559,10 +3557,10 @@ img {
     display: inline-block;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .award-section .slider-column .owl-dots .owl-dot.active,
@@ -3607,11 +3605,11 @@ img {
     opacity: 0;
     text-align: center;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    background-color: rgba(250, 41, 100, .75)
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: rgb(250 41 100 / 75%)
 }
 
 .services-block-four .inner-box .image .overlay-box .icon {
@@ -3632,7 +3630,7 @@ img {
     padding-bottom: 18px
 }
 
-.services-block-four .inner-box .lower-box:after {
+.services-block-four .inner-box .lower-box::after {
     position: absolute;
     content: '';
     left: 0;
@@ -3641,13 +3639,13 @@ img {
     height: 1px;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.services-block-four .inner-box:hover .lower-box:after {
+.services-block-four .inner-box:hover .lower-box::after {
     width: 100%;
     display: block;
     background-color: #B99976
@@ -3665,10 +3663,10 @@ img {
     position: relative;
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .services-block-four .inner-box .lower-box h3 a:hover {
@@ -3728,7 +3726,7 @@ img {
     margin-bottom: 15px
 }
 
-.sidebar-title h2:before {
+.sidebar-title h2::before {
     content: "";
     background-color: #B99976;
     width: 25px;
@@ -3756,7 +3754,7 @@ img {
     margin-bottom: 20px
 }
 
-.sidebar-title .separator:after {
+.sidebar-title .separator::after {
     position: absolute;
     content: '';
     right: 0;
@@ -3789,13 +3787,13 @@ img {
     display: block;
     color: #888;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.category-service li a:before {
+.category-service li a::before {
     position: absolute;
     content: '\f054';
     left: 20px;
@@ -3817,7 +3815,7 @@ img {
     position: relative
 }
 
-.brochure-widget h2:before {
+.brochure-widget h2::before {
     content: "";
     background-color: #B99976;
     width: 25px;
@@ -3860,10 +3858,10 @@ img {
     padding-left: 50px;
     display: block;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .brochure-widget .brouchers li a:hover {
@@ -3878,30 +3876,30 @@ img {
     color: #777
 }
 
-.brochure-widget .brouchers li a .pdf:before {
+.brochure-widget .brouchers li a .pdf::before {
     content: '\f1c1';
     position: absolute;
     line-height: 32px;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     font-size: 32px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.brochure-widget .brouchers li a .word:before {
+.brochure-widget .brouchers li a .word::before {
     content: '\f1c2';
     position: absolute;
     line-height: 32px;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     font-size: 32px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .brochure-widget .brouchers li a:hover .icon.pdf,
@@ -3924,7 +3922,7 @@ img {
 
 .testimonial-widget .widget-content .inner {
     position: relative;
-    padding: 35px 32px 35px;
+    padding: 35px 32px;
     background-color: #f8f8f8
 }
 
@@ -4053,8 +4051,8 @@ img {
     padding: 40px 50px;
     background: #fff;
     width: 95%;
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%)
 }
 
 .services-single .inner-box .lower-content h2 {
@@ -4105,7 +4103,7 @@ img {
     margin-bottom: 20px
 }
 
-.services-single .inner-box .lower-content .separator:after {
+.services-single .inner-box .lower-content .separator::after {
     position: absolute;
     content: '';
     right: 0;
@@ -4138,10 +4136,10 @@ img {
     padding: 0 40px 40px;
     background-color: #f9f9f9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
     border-bottom: 2px solid #ccc
 }
 
@@ -4159,16 +4157,16 @@ img {
     color: #34322d;
     top: -20px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
     background-color: #fff;
-    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05);
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .05), -2px 0 5px 1px rgba(0, 0, 0, .05)
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0 5px 1px rgb(0 0 0 / 5%)
 }
 
 .services-block-five .inner-box:hover .icon-box {
@@ -4188,10 +4186,10 @@ img {
     position: relative;
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .services-block-five .inner-box h3 a:hover {
@@ -4246,7 +4244,7 @@ img {
     padding-bottom: 22px
 }
 
-.news-block-three .inner-box .lower-box:after {
+.news-block-three .inner-box .lower-box::after {
     position: absolute;
     content: '';
     left: 0;
@@ -4255,13 +4253,13 @@ img {
     height: 1px;
     background-color: #f2eee9;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.news-block-three .inner-box:hover .lower-box:after {
+.news-block-three .inner-box:hover .lower-box::after {
     width: 100%;
     background-color: #B99976
 }
@@ -4276,10 +4274,10 @@ img {
 .news-block-three .inner-box .lower-box h3 a {
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-three .inner-box .lower-box h3 a:hover {
@@ -4292,7 +4290,7 @@ img {
     font-weight: 400;
     color: #888;
     margin-bottom: 25px;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .news-block-three .inner-box .lower-box .read-more {
@@ -4318,10 +4316,10 @@ img {
     top: 2px;
     margin-right: 28px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-three .inner-box .lower-box .share-icon:hover {
@@ -4361,10 +4359,10 @@ img {
     border: 1px solid #edf0f3;
     text-transform: capitalize;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     font-family: 'Titillium Web', sans-serif
 }
 
@@ -4393,10 +4391,10 @@ img {
     height: 55px;
     font-style: italic;
     transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .sidebar .search-box .form-group button {
@@ -4425,10 +4423,10 @@ img {
     position: relative;
     margin-bottom: 8px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .categories-blog .inner-box ul li a {
@@ -4440,13 +4438,13 @@ img {
     display: block;
     font-family: 'Titillium Web', sans-serif;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
-.categories-blog .inner-box ul li a:before {
+.categories-blog .inner-box ul li a::before {
     position: absolute;
     content: '\f105';
     left: 0;
@@ -4454,10 +4452,10 @@ img {
     font-size: 14px;
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .categories-blog .inner-box ul li.active a::before,
@@ -4471,7 +4469,7 @@ img {
     position: relative;
     font-size: 14px;
     color: #666;
-    padding: 0 0;
+    padding: 0;
     padding-left: 118px;
     min-height: 120px;
     margin-bottom: 20px;
@@ -4490,7 +4488,7 @@ img {
     width: 100px
 }
 
-.sidebar .popular-posts .post .post-thumb:before {
+.sidebar .popular-posts .post .post-thumb::before {
     position: absolute;
     content: '';
     left: 0;
@@ -4499,7 +4497,7 @@ img {
     height: 100%;
     display: block;
     z-index: 10;
-    background-color: rgba(0, 0, 0, .15)
+    background-color: rgb(0 0 0 / 15%)
 }
 
 .sidebar .popular-posts .post:hover .post-thumb img {
@@ -4510,17 +4508,17 @@ img {
     display: block;
     width: 100%;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .sidebar .popular-posts .post .text {
     position: relative;
     top: -4px;
     font-size: 16px;
-    margin: 0 0 0;
+    margin: 0;
     font-weight: 600;
     color: #333;
     line-height: 1.6em;
@@ -4531,10 +4529,10 @@ img {
 .sidebar .popular-posts .post .text a {
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .sidebar .popular-posts .post a,
@@ -4553,7 +4551,7 @@ img {
     position: relative;
     display: inline-block;
     line-height: 24px;
-    padding: 12px 18px 12px;
+    padding: 12px 18px;
     margin: 0 9px 12px 0;
     color: #888;
     text-align: center;
@@ -4563,10 +4561,10 @@ img {
     background: #f1ede8;
     border: 1px solid #edf0f3;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .sidebar .popular-tags a:hover {
@@ -4594,7 +4592,7 @@ img {
     overflow: hidden
 }
 
-.news-block-four .inner-box .image:after {
+.news-block-four .inner-box .image::after {
     content: " ";
     display: block;
     width: 100%;
@@ -4611,8 +4609,8 @@ img {
     border-radius: 0
 }
 
-.news-block-four .inner-box:hover .image:after {
-    background: rgba(0, 0, 0, .1)
+.news-block-four .inner-box:hover .image::after {
+    background: rgb(0 0 0 / 10%)
 }
 
 .news-block-four .inner-box:hover .image>img {
@@ -4639,11 +4637,11 @@ img {
     padding: 30px 40px;
     background: #fff;
     width: 95%;
-    -webkit-box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 10%)
 }
 
-.news-block-four .inner-box .lower-box:after {
+.news-block-four .inner-box .lower-box::after {
     position: absolute;
     content: '';
     left: 0;
@@ -4652,13 +4650,13 @@ img {
     height: 1px;
     background-color: #f2eee9;
     transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -webkit-transition: all 0.6s ease;
-    -ms-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease
+    transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    transition: all 0.6s ease
 }
 
-.news-block-four .inner-box:hover .lower-box:after {
+.news-block-four .inner-box:hover .lower-box::after {
     width: 100%;
     background-color: #B99976
 }
@@ -4680,10 +4678,10 @@ img {
 .news-block-four .inner-box .lower-box h3 a {
     color: #34322d;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-four .inner-box .lower-box h3 a:hover {
@@ -4705,10 +4703,10 @@ img {
     font-size: 12px;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-four .inner-box .lower-box .read-more .fa {
@@ -4726,10 +4724,10 @@ img {
     color: #777;
     font-size: 18px;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .news-block-four .inner-box .lower-box .share-icon:hover {
@@ -4859,10 +4857,10 @@ img {
     font-weight: 500;
     display: inline-block;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .blog-single .inner-box .lower-box .post-share-options .categories-list li {
@@ -4874,11 +4872,11 @@ img {
     margin-right: 0
 }
 
-.blog-single .inner-box .lower-box .post-share-options .categories-list li:after {
+.blog-single .inner-box .lower-box .post-share-options .categories-list li::after {
     content: ","
 }
 
-.blog-single .inner-box .lower-box .post-share-options .categories-list li:last-child:after {
+.blog-single .inner-box .lower-box .post-share-options .categories-list li:last-child::after {
     display: none;
     content: ""
 }
@@ -4900,7 +4898,7 @@ img {
     margin-bottom: 32px
 }
 
-.sidebar-page-container .group-title h2:before {
+.sidebar-page-container .group-title h2::before {
     content: "";
     background-color: #B99976;
     width: 25px;
@@ -4928,7 +4926,7 @@ img {
     margin-bottom: 20px
 }
 
-.sidebar-page-container .group-title .separator:after {
+.sidebar-page-container .group-title .separator::after {
     position: absolute;
     content: '';
     right: 0;
@@ -4940,12 +4938,12 @@ img {
 
 .sidebar-page-container .comments-area .comment-box {
     position: relative;
-    padding: 0 0 0;
+    padding: 0;
     margin-bottom: 40px;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease
 }
 
@@ -4981,10 +4979,10 @@ img {
     text-transform: uppercase;
     letter-spacing: 1px;
     border-bottom: 1px solid #f2eee9;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease;
     transition: all 300ms ease;
     font-family: 'Titillium Web', sans-serif
 }
@@ -5044,7 +5042,7 @@ img {
     font-weight: 300;
     margin-left: 22px;
     display: inline-block;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .sidebar-page-container .comments-area .comment-box .theme-btn {
@@ -5080,9 +5078,9 @@ img {
     font-weight: 400;
     border: 1px solid #eee;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .comment-form .form-group input[type="text"]:focus,
@@ -5169,8 +5167,8 @@ img {
     width: 100px
 }
 
-.contact-section .form-column .form-title .separator:after,
-.map-section .map-title .separator:after {
+.contact-section .form-column .form-title .separator::after,
+.map-section .map-title .separator::after {
     position: absolute;
     content: '';
     left: 0;
@@ -5212,9 +5210,9 @@ img {
     background-color: #fff;
     border: 1px solid #ece8e3;
     transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease
+    transition: all 300ms ease;
+    transition: all 300ms ease;
+    transition: all 300ms ease
 }
 
 .contact-form input:focus,
@@ -5236,7 +5234,7 @@ img {
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error {
-    border-color: #ff0000 !important
+    border-color: #f00 !important
 }
 
 .contact-form label.error {
@@ -5255,12 +5253,12 @@ img {
     margin-top: 40px;
     border: 1px solid #ece8e3;
     padding: 45px 45px 38px;
-    background: url(../images/background/texture-1.jpg);
+    background: url("../images/background/texture-1.jpg");
     background-color: #f1ede8
 }
 
 .project-page-section {
-    padding: 100px 0 120px 0
+    padding: 100px 0 120px
 }
 
 .project-fullwidth-section .filters .filter-tabs,
@@ -5302,9 +5300,9 @@ img {
     height: 100%;
     opacity: 0;
     text-align: center;
-    -webkit-transition: all 700ms ease;
-    -ms-transition: all 700ms ease;
-    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+    transition: all 700ms ease;
+    transition: all 700ms ease;
     transition: all 700ms ease
 }
 
@@ -5319,7 +5317,7 @@ img {
     display: table;
     vertical-align: middle;
     padding: 10px 0;
-    background: rgba(250, 41, 100, .75)
+    background: rgb(250 41 100 / 75%)
 }
 
 .gallery-block-two .overlay-box .overlay-inner .content {
@@ -5348,10 +5346,10 @@ img {
     position: relative;
     color: #fff;
     transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition: all 0.3s ease
 }
 
 .gallery-block-two .overlay-box .overlay-inner .designation {
@@ -5360,7 +5358,7 @@ img {
     font-size: 14px;
     margin-top: 0;
     text-transform: uppercase;
-    font-family: 'Barlow', sans-serif
+    font-family: Barlow, sans-serif
 }
 
 .project-single-section {
@@ -5393,7 +5391,7 @@ img {
     margin-top: 20px;
     border: 1px solid #ece8e3;
     padding: 45px 45px 38px;
-    background: url(../images/background/texture-1.jpg);
+    background: url("../images/background/texture-1.jpg");
     background-color: #f1ede8
 }
 
@@ -5408,7 +5406,7 @@ img {
     font-family: 'Titillium Web', sans-serif
 }
 
-.project-single-section .content h3:before {
+.project-single-section .content h3::before {
     content: "";
     background-color: #B99976;
     width: 25px;
@@ -5466,16 +5464,16 @@ img {
     border: 1px solid #ece8e3;
     background-color: #fff;
     padding: 40px;
-    -webkit-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15);
-    -moz-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15);
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
     position: absolute;
     right: 0;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 2
 }
@@ -5555,29 +5553,29 @@ img {
     margin: 0
 }
 
-.project-single-slider .owl-nav [class*=owl-] {
-    background: rgba(233, 129, 53, .4) !important;
-    color: #ffffff !important;
+.project-single-slider .owl-nav [class*="owl-"] {
+    background: rgb(233 129 53 / 40%) !important;
+    color: #fff !important;
     width: 50px;
     height: 50px;
     line-height: 50px;
     padding: 0;
     margin: 0;
     border-radius: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    transition: all 0.3s;
+    transition: all 0.3s;
+    transition: all 0.3s;
     transition: all 0.3s
 }
 
-.project-single-slider .owl-nav [class*=owl-]:hover {
+.project-single-slider .owl-nav [class*="owl-"]:hover {
     background: #B99976 !important
 }
 
 .error-section {
     position: relative;
-    padding: 100px 0 120px 0
+    padding: 100px 0 120px
 }
 
 .error-section h2 {
@@ -5662,7 +5660,7 @@ img {
     text-align: center
 }
 
-.faqs-title .separator:before {
+.faqs-title .separator::before {
     position: absolute;
     content: '';
     left: 0;
@@ -5680,7 +5678,7 @@ img {
     background: white;
     border: 0;
     border-radius: 0;
-    -webkit-box-shadow: none;
+    box-shadow: none;
     box-shadow: none
 }
 
@@ -5705,19 +5703,19 @@ img {
     position: relative
 }
 
-.theme-accordion .panel-heading a:before {
+.theme-accordion .panel-heading a::before {
     font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Solid';
     content: "\f078";
     font-size: 15px;
     position: absolute;
     right: 25px;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    -ms-transition: all 0.3s;
+    transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all 0.3s;
+    transition: all 0.3s;
+    transition: all 0.3s;
+    transition: all 0.3s;
     transition: all 0.3s
 }
 
@@ -5731,9 +5729,9 @@ img {
     color: #403e39
 }
 
-.theme-accordion .panel-heading .collapsed:before {
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
+.theme-accordion .panel-heading .collapsed::before {
+    transform: rotate(0);
+    transform: rotate(0);
     transform: rotate(0)
 }
 
@@ -5749,7 +5747,7 @@ img {
 }
 
 .gallery-section {
-    padding: 100px 0 120px 0
+    padding: 100px 0 120px
 }
 
 .gallery-item {
@@ -5767,7 +5765,7 @@ img {
     overflow: hidden
 }
 
-.gallery-box .gallery-img:after {
+.gallery-box .gallery-img::after {
     content: " ";
     display: block;
     width: 100%;
@@ -5801,7 +5799,7 @@ img {
 }
 
 .gallery-box .gallery-detail p {
-    color: rgba(0, 0, 0, .4);
+    color: rgb(0 0 0 / 40%);
     font-size: 14px
 }
 
@@ -5820,8 +5818,8 @@ img {
     opacity: 1
 }
 
-.gallery-box:hover .gallery-img:after {
-    background: rgba(0, 0, 0, .1)
+.gallery-box:hover .gallery-img::after {
+    background: rgb(0 0 0 / 10%)
 }
 
 .gallery-box:hover .gallery-img>img {
@@ -5834,7 +5832,7 @@ img {
 
 .ser {
     padding: 8px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgb(60 64 67 / 30%) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 2px 6px 2px;
     text-align: center;
     border-radius: 10px;
     transition: all 0.2s linear;
@@ -5851,7 +5849,7 @@ img {
 }
 
 .ser:hover {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgb(0 0 0 / 19%) 0 10px 20px, rgb(0 0 0 / 23%) 0 6px 6px;
 }
 
 .ser:hover img {
@@ -5867,7 +5865,6 @@ img {
 }
 
 .ser h3 a {
-
     color: #181818;
     transition: all 0.2s linear;
 }
@@ -5888,7 +5885,7 @@ img {
     right: 30px;
     background: #1c9329;
     font-size: 30px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgb(0 0 0 / 19%) 0 10px 20px, rgb(0 0 0 / 23%) 0 6px 6px;
     padding: 12px 14px;
     color: #fff;
     border-radius: 50%;
@@ -5902,9 +5899,9 @@ img {
     right: 30px;
     z-index: 9999;
     background: #B99976;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgb(0 0 0 / 19%) 0 10px 20px, rgb(0 0 0 / 23%) 0 6px 6px;
     font-size: 30px;
-    padding: 12px 12px;
+    padding: 12px;
     color: #fff;
     border-radius: 50%;
     border: 2.5px solid #fff;
@@ -5914,7 +5911,7 @@ img {
     display: none;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (width <=767px) {
     .logo {
         display: none;
     }
