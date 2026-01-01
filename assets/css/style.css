@@ -3329,7 +3329,9 @@ img {
 }
 
 .about-details-image {
-    float: right
+    float: right;
+    display: flex;
+    align-items: center;
 }
 
 .about-details-image .image {
