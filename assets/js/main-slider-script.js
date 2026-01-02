@@ -26,12 +26,12 @@
                         drag_block_vertical: false
                     },
                     arrows: {
-                        style:"gyges",
+                        style:"ares",
                         enable:true,
                         hide_onmobile:true,
                         hide_under:600,
                         hide_onleave:false,
-                        tmp:'',
+                        tmp:'<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
                         left: {
                             h_align:"left",
                             v_align:"center",
@@ -44,6 +44,20 @@
                             h_offset:15,
                             v_offset:30
                         }
+                    },
+                    bullets: {
+                        enable:true,
+                        hide_onmobile:true,
+                        hide_under:600,
+                        style:"hebe",
+                        hide_onleave:false,
+                        direction:"horizontal",
+                        h_align:"center",
+                        v_align:"bottom",
+                        h_offset:0,
+                        v_offset:30,
+                        space:10,
+                        tmp:''
                     }
                     
                 },
