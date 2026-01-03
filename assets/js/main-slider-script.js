@@ -31,7 +31,6 @@
                         hide_onmobile:true,
                         hide_under:600,
                         hide_onleave:false,
-                        tmp:'<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
                         left: {
                             h_align:"left",
                             v_align:"center",
