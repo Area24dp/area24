@@ -3021,7 +3021,7 @@ img {
 }
 
 .main-footer .link-widget ul li a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .main-footer .link-widget ul li a::before {
@@ -3154,7 +3154,7 @@ img {
 }
 
 .main-footer .footer-bottom .copyright a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .main-footer .footer-bottom .foter-nav {
