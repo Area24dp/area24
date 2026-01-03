@@ -10,7 +10,7 @@ website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 .ares.tparrows {
   cursor:pointer;
-  background:#fff;
+  background:#B99976;
   min-width:60px;
     min-height:60px;
   position:absolute;
@@ -23,7 +23,7 @@ website:    http://www.themepunch.com
 .ares.tparrows:before {
   font-family: "revicons";
   font-size:25px;
-  color:#aaa;
+  color:#fff;
   display:block;
   line-height: 60px;
   text-align: center;
@@ -40,13 +40,13 @@ website:    http://www.themepunch.com
   content: "\e81e";
 }
 .ares.tparrows:hover:before {
- color:#000;
+ color:#fff;
       }
 .ares .tp-title-wrap { 
   position:absolute;
   z-index:1;
   display:inline-block;
-  background:#fff;
+  background:#B99976;
   min-height:60px;
   line-height:60px;
   top:0px;
@@ -76,7 +76,7 @@ border-radius:30px 0px 0px 30px;
   transition: transform 0.3s;
   transform:translateX(200px);  
   text-transform:uppercase;
-  color:#000;
+  color:#fff;
   font-weight:400;
   font-size:14px;
   line-height:60px;
