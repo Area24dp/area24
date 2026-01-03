@@ -31,7 +31,10 @@ website:    http://www.themepunch.com
     -moz-transition: color 0.3s;
     transition: color 0.3s;
     z-index:2;
-    position:relative;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .ares.tparrows.tp-leftarrow:before {
   content: "\2190";
