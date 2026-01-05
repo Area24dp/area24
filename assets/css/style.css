@@ -1699,6 +1699,26 @@ img {
     box-shadow: 0 8px 35px rgb(0 0 0 / 25%); /* Stronger shadow on hover */
 }
 
+/* Remove hover effect for packages page */
+body.page-packages .services-block-two .inner-box:hover {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    backdrop-filter: none !important;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 20%) !important;
+}
+
+body.page-packages .services-block-two .inner-box:hover h3 a,
+body.page-packages .services-block-two .inner-box:hover .text,
+body.page-packages .services-block-two .inner-box:hover .read-more,
+body.page-packages .services-block-two .inner-box:hover .read-more .fa {
+    color: inherit !important;
+}
+
+body.page-packages .services-block-two .inner-box:hover .icon-box img {
+    filter: none !important;
+}
+
 .services-block-two .inner-box .icon-box {
     position: relative;
     margin-bottom: 20px;
