@@ -120,6 +120,17 @@ body.page-packages .services-block-two .inner-box:hover {
 	box-shadow: 0 5px 30px rgb(0 0 0 / 20%) !important;
 }
 
+/* Ensure bullet points show on packages page */
+body.page-packages .services-block-two .inner-box ul {
+	list-style-type: disc !important;
+	list-style: disc !important;
+}
+
+body.page-packages .services-block-two .inner-box ul li {
+	list-style-type: disc !important;
+	list-style: disc !important;
+}
+
 .call-to-action,
 .main-footer .footer-widget .footer-title .separator::before {
 	background-color:#B99976;	
