@@ -91,6 +91,35 @@ a,
 	background-color:#b99976;
 }
 
+/* Remove hover background for packages page */
+body.page-packages .services-block-two .inner-box:hover {
+	background-color: transparent !important;
+	background: transparent !important;
+	border: 1px solid transparent !important;
+	backdrop-filter: none !important;
+	box-shadow: 0 5px 30px rgb(0 0 0 / 20%) !important;
+}
+
+body.page-packages .services-block-two .inner-box:hover h3 a,
+body.page-packages .services-block-two .inner-box:hover .text,
+body.page-packages .services-block-two .inner-box:hover .read-more,
+body.page-packages .services-block-two .inner-box:hover .read-more .fa {
+	color: inherit !important;
+}
+
+body.page-packages .services-block-two .inner-box:hover .icon-box img {
+	filter: none !important;
+}
+
+/* Make hover state identical to normal state for packages page */
+body.page-packages .services-block-two .inner-box:hover {
+	background: white !important;
+	background-color: white !important;
+	border: 1px solid rgb(255 255 255 / 20%) !important;
+	backdrop-filter: none !important;
+	box-shadow: 0 5px 30px rgb(0 0 0 / 20%) !important;
+}
+
 .call-to-action,
 .main-footer .footer-widget .footer-title .separator::before {
 	background-color:#B99976;	
