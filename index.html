@@ -654,6 +654,39 @@
 		</section>
 		<!--End Project Section-->
 		<style>
+			.inner-box {
+				background: white;
+				border: 1px solid rgb(255 255 255 / 20%);
+				padding: 45px 45px 35px;
+				min-height: 370px;
+				box-shadow: 0 5px 30px rgb(0 0 0 / 20%);
+				transition: all 0.3s ease;
+				border-radius: 15px;
+				position: relative;
+				overflow: hidden;
+			}
+			.inner-box:hover {
+				transform: translateY(-10px);
+				box-shadow: 0 15px 40px rgb(0 0 0 / 30%);
+			}
+			.inner-box .text {
+				opacity: 0;
+				transform: translateY(20px);
+				transition: all 0.3s ease;
+			}
+			.inner-box:hover .text {
+				opacity: 1;
+				transform: translateY(0);
+			}
+			.inner-box .read-more {
+				opacity: 0;
+				transform: translateY(20px);
+				transition: all 0.3s ease 0.1s;
+			}
+			.inner-box:hover .read-more {
+				opacity: 1;
+				transform: translateY(0);
+			}
 		</style>
 		<!--Services Section Two-->
 		<section class="services-section-two "
