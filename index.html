@@ -654,50 +654,6 @@
 		</section>
 		<!--End Project Section-->
 		<style>
-			@keyframes fadeInLeft {
-				from { opacity: 0; transform: translateX(-50px); }
-				to { opacity: 1; transform: translateX(0); }
-			}
-			@keyframes fadeInRight {
-				from { opacity: 0; transform: translateX(50px); }
-				to { opacity: 1; transform: translateX(0); }
-			}
-			@keyframes fadeInUp {
-				from { opacity: 0; transform: translateY(30px); }
-				to { opacity: 1; transform: translateY(0); }
-			}
-			@keyframes zoomIn {
-				from { opacity: 0; transform: scale(0.8); }
-				to { opacity: 1; transform: scale(1); }
-			}
-			@keyframes slideInUp {
-				from { opacity: 0; transform: translateY(50px); }
-				to { opacity: 1; transform: translateY(0); }
-			}
-			@keyframes slideInLeft {
-				from { opacity: 0; transform: translateX(-100px); }
-				to { opacity: 1; transform: translateX(0); }
-			}
-			@keyframes slideInRight {
-				from { opacity: 0; transform: translateX(100px); }
-				to { opacity: 1; transform: translateX(0); }
-			}
-			@keyframes swipeUp {
-				from { transform: translateY(0) scale(1); opacity: 1; }
-				to { transform: translateY(-100px) scale(0.95); opacity: 0; }
-			}
-			.inner-box.animate-in {
-				animation: slideInLeft 1s ease-in-out 0.3s both;
-			}
-			.text.animate-in {
-				animation: slideInRight 1s ease-in-out both;
-			}
-			.read-more.animate-in {
-				animation: fadeInUp 1s ease-in-out 0.5s both;
-			}
-			.inner-box.swipe-out {
-				animation: swipeUp 0.8s ease-in-out forwards;
-			}
 		</style>
 		<!--Services Section Two-->
 		<section class="services-section-two "
@@ -719,7 +675,7 @@
 								<h3><a href="interiordesign.html">Interior Design</a></h3>
 								<div class="text">Comprehensive interior design services creating environments that
 									blend aesthetics with functionality.</div>
-								<a class="read-more" href="residentialdesign.html">read more <span
+								<a class="read-more" href="interiordesign.html">read more <span
 										class="icon fa fa-angle-double-right"></span></a>
 							</div>
 						</div>
@@ -756,47 +712,6 @@
 				</div>
 			</div>
 		</section>
-		<script>
-			$(document).ready(function() {
-				var animatedElements = $('.inner-box, .text, .read-more');
-				
-				function checkScroll() {
-					var scrollTop = $(window).scrollTop();
-					var windowHeight = $(window).height();
-					
-					animatedElements.each(function() {
-						var elementTop = $(this).offset().top;
-						var elementHeight = $(this).outerHeight();
-						
-						if (scrollTop + windowHeight > elementTop + elementHeight * 0.5) {
-							$(this).addClass('animate-in');
-						}
-					});
-					
-					// Parallax background
-					var sectionOffset = $('.services-section-two').offset().top;
-					var sectionHeight = $('.services-section-two').outerHeight();
-					
-					if (scrollTop + windowHeight > sectionOffset && scrollTop < sectionOffset + sectionHeight) {
-						var yPos = -(scrollTop - sectionOffset) * 0.5;
-						$('.services-section-two').css('background-position', 'center ' + yPos + 'px');
-					}
-					
-					// Swipe up
-					$('.inner-box').each(function() {
-						var elementTop = $(this).offset().top;
-						var elementBottom = elementTop + $(this).outerHeight();
-						
-						if (elementBottom < scrollTop) {
-							$(this).addClass('swipe-out');
-						}
-					});
-				}
-				
-				$(window).scroll(checkScroll);
-				checkScroll(); // Check on load
-			});
-		</script>
 		<!--End Services Section Two-->
 		<!--Our Global Vendors & Certifications Section-->
 		<section class="global-vendors-section" style="background-color: #f9f9f9; padding: 60px 0;">
