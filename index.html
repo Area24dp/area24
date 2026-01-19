@@ -653,9 +653,43 @@
 			</div>
 		</section>
 		<!--End Project Section-->
+		<style>
+			@keyframes fadeInLeft {
+				from { opacity: 0; transform: translateX(-50px); }
+				to { opacity: 1; transform: translateX(0); }
+			}
+			@keyframes fadeInRight {
+				from { opacity: 0; transform: translateX(50px); }
+				to { opacity: 1; transform: translateX(0); }
+			}
+			@keyframes fadeInUp {
+				from { opacity: 0; transform: translateY(30px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+			@keyframes zoomIn {
+				from { opacity: 0; transform: scale(0.8); }
+				to { opacity: 1; transform: scale(1); }
+			}
+			@keyframes slideInUp {
+				from { opacity: 0; transform: translateY(50px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+			@keyframes slideInLeft {
+				from { opacity: 0; transform: translateX(-100px); }
+				to { opacity: 1; transform: translateX(0); }
+			}
+			@keyframes slideInRight {
+				from { opacity: 0; transform: translateX(100px); }
+				to { opacity: 1; transform: translateX(0); }
+			}
+			@keyframes swipeUp {
+				from { transform: translateY(0) scale(1); opacity: 1; }
+				to { transform: translateY(-100px) scale(0.95); opacity: 0; }
+			}
+		</style>
 		<!--Services Section Two-->
 		<section class="services-section-two "
-			style="background-image:url(assets/images/background/1.jpg); padding: 60px 0;">
+			style="background-image:url(assets/images/background/1.jpg); padding: 100px 0; min-height: 400px;">
 			<div class="section-inner">
 				<div class="auto-container">
 					<!--Sec Title-->
@@ -664,45 +698,63 @@
 						<div class="separator"></div>
 					</div>
 					<div class="row clearfix">
-						<!--Services Block Two-->
-						<div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-							<div class="inner-box">
-								<div class="icon-box">
-									<img src="assets/images/icons/interior.png" alt="Interior Design">
+						<!--Services Block One-->
+						<div class="services-block-one col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 80px; min-height: 400px;">
+							<div class="row" style="display: flex; align-items: center; min-height: 400px;">
+								<div class="col-md-6 col-sm-6 col-xs-12" style="position: sticky; top: 100px;">
+									<div class="inner-box" style="background: white; border: 1px solid rgb(255 255 255 / 20%); padding: 60px 50px; min-height: 350px; box-shadow: 0 10px 40px rgb(0 0 0 / 30%); transition: all 0.3s ease; border-radius: 15px; text-align: center; animation: slideInLeft 1s ease-in-out 0.3s both;">
+										<div class="icon-box" style="margin-bottom: 30px;">
+											<img src="assets/images/icons/interior.png" alt="Interior Design" style="width: 80px; height: 80px;">
+										</div>
+										<h3 style="margin: 0; font-size: 26px;"><a href="interiordesign.html" style="color: #333; text-decoration: none;">Interior Design</a></h3>
+									</div>
 								</div>
-								<h3><a href="interiordesign.html">Interior Design</a></h3>
-								<div class="text">Comprehensive interior design services creating environments that
-									blend aesthetics with functionality.</div>
-								<a class="read-more" href="residentialdesign.html">read more <span
-										class="icon fa fa-angle-double-right"></span></a>
+								<div class="col-md-6 col-sm-6 col-xs-12" style="padding: 40px; animation: slideInRight 1s ease-in-out;">
+									<div class="text" style="font-size: 16px; line-height: 1.6; color: #fff;">Comprehensive interior design services creating environments that
+										blend aesthetics with functionality.</div>
+									<a class="read-more" href="residentialdesign.html" style="margin-top: 20px; display: inline-block; animation: fadeInUp 1s ease-in-out 0.5s both;">read more <span
+											class="icon fa fa-angle-double-right"></span></a>
+								</div>
 							</div>
 						</div>
 
 						<!--Services Block Two-->
-						<div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-							<div class="inner-box">
-								<div class="icon-box">
-									<img src="assets/images/icons/design.png" alt="Turnkey Solutions">
+						<div class="services-block-two col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 80px; min-height: 400px;">
+							<div class="row" style="display: flex; align-items: center; min-height: 400px;">
+								<div class="col-md-6 col-sm-6 col-xs-12" style="position: sticky; top: 100px;">
+									<div class="inner-box" style="background: white; border: 1px solid rgb(255 255 255 / 20%); padding: 60px 50px; min-height: 350px; box-shadow: 0 10px 40px rgb(0 0 0 / 30%); transition: all 0.3s ease; border-radius: 15px; text-align: center; animation: slideInLeft 1s ease-in-out 0.3s both;">
+										<div class="icon-box" style="margin-bottom: 30px;">
+											<img src="assets/images/icons/design.png" alt="Turnkey Solutions" style="width: 80px; height: 80px;">
+										</div>
+										<h3 style="margin: 0; font-size: 26px;"><a href="turnkeysolutions.html" style="color: #333; text-decoration: none;">End-to-End Turnkey Solutions</a></h3>
+									</div>
 								</div>
-								<h3><a href="turnkeysolutions.html">End-to-End Turnkey Solutions</a></h3>
-								<div class="text">Complete project management from concept to completion, ensuring
-									seamless execution and quality.</div>
-								<a class="read-more" href="turnkeysolutions.html">read more <span
-										class="icon fa fa-angle-double-right"></span></a>
+								<div class="col-md-6 col-sm-6 col-xs-12" style="padding: 40px; animation: slideInRight 1s ease-in-out;">
+									<div class="text" style="font-size: 16px; line-height: 1.6; color: #fff;">Complete project management from concept to completion, ensuring
+										seamless execution and quality.</div>
+									<a class="read-more" href="turnkeysolutions.html" style="margin-top: 20px; display: inline-block; animation: fadeInUp 1s ease-in-out 0.5s both;">read more <span
+											class="icon fa fa-angle-double-right"></span></a>
+								</div>
 							</div>
 						</div>
 
-						<!--Services Block Two-->
-						<div class="services-block-two col-md-4 col-sm-6 col-xs-12">
-							<div class="inner-box">
-								<div class="icon-box">
-									<img src="assets/images/icons/interior.png" alt="Consultation">
+						<!--Services Block Three-->
+						<div class="services-block-three col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 80px; min-height: 400px;">
+							<div class="row" style="display: flex; align-items: center; min-height: 400px;">
+								<div class="col-md-6 col-sm-6 col-xs-12" style="position: sticky; top: 100px;">
+									<div class="inner-box" style="background: white; border: 1px solid rgb(255 255 255 / 20%); padding: 60px 50px; min-height: 350px; box-shadow: 0 10px 40px rgb(0 0 0 / 30%); transition: all 0.3s ease; border-radius: 15px; text-align: center; animation: slideInLeft 1s ease-in-out 0.3s both;">
+										<div class="icon-box" style="margin-bottom: 30px;">
+											<img src="assets/images/icons/interior.png" alt="Consultation" style="width: 80px; height: 80px;">
+										</div>
+										<h3 style="margin: 0; font-size: 26px;"><a href="vastuconsultancy.html" style="color: #333; text-decoration: none;">Consultation</a></h3>
+									</div>
 								</div>
-								<h3><a href="vastuconsultancy.html">Consultation</a></h3>
-								<div class="text">Expert consultation services to guide your design projects from
-									concept to realization.</div>
-								<a class="read-more" href="vastuconsultancy.html">read more <span
-										class="icon fa fa-angle-double-right"></span></a>
+								<div class="col-md-6 col-sm-6 col-xs-12" style="padding: 40px; animation: slideInRight 1s ease-in-out;">
+									<div class="text" style="font-size: 16px; line-height: 1.6; color: #fff;">Expert consultation services to guide your design projects from
+										concept to realization.</div>
+									<a class="read-more" href="vastuconsultancy.html" style="margin-top: 20px; display: inline-block; animation: fadeInUp 1s ease-in-out 0.5s both;">read more <span
+											class="icon fa fa-angle-double-right"></span></a>
+								</div>
 							</div>
 						</div>
 
@@ -710,6 +762,32 @@
 				</div>
 			</div>
 		</section>
+		<script>
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					var scrollTop = $(window).scrollTop();
+					var sectionOffset = $('.services-section-two').offset().top;
+					var sectionHeight = $('.services-section-two').outerHeight();
+					var windowHeight = $(window).height();
+					
+					if (scrollTop + windowHeight > sectionOffset && scrollTop < sectionOffset + sectionHeight) {
+						var yPos = -(scrollTop - sectionOffset) * 0.5;
+						$('.services-section-two').css('background-position', 'center ' + yPos + 'px');
+					}
+					
+					$('.inner-box').each(function() {
+						var elementTop = $(this).offset().top;
+						var elementBottom = elementTop + $(this).outerHeight();
+						var viewportTop = $(window).scrollTop();
+						var viewportBottom = viewportTop + $(window).height();
+						
+						if (elementBottom < viewportTop) {
+							$(this).css('animation', 'swipeUp 0.8s ease-in-out forwards');
+						}
+					});
+				});
+			});
+		</script>
 		<!--End Services Section Two-->
 		<!--Our Global Vendors & Certifications Section-->
 		<section class="global-vendors-section" style="background-color: #f9f9f9; padding: 60px 0;">
