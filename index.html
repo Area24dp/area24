@@ -572,6 +572,52 @@
 		</section>
 		<!--End About Section-->
 		<!--Certificates Section-->
+		<style>
+			@keyframes slideFromLeft {
+				from {
+					transform: translateX(-100%);
+					opacity: 0;
+				}
+				to {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+			@keyframes slideFromRight {
+				from {
+					transform: translateX(100%);
+					opacity: 0;
+				}
+				to {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+			@keyframes slideFromBottom {
+				from {
+					transform: translateY(100%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+			@keyframes slideFromTop {
+				from {
+					transform: translateY(-100%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+			.slide-left { animation: slideFromLeft 1.5s ease-out forwards; }
+			.slide-right { animation: slideFromRight 1.5s ease-out forwards; }
+			.slide-bottom { animation: slideFromBottom 1.5s ease-out forwards; }
+			.slide-top { animation: slideFromTop 1.5s ease-out forwards; }
+		</style>
 		<section class="certificates-section" style="padding: 60px 0;">
 			<div class="auto-container">
 				<div class="sec-title centered">
@@ -581,7 +627,7 @@
 				</div>
 				<div class="row clearfix" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; gap: 10px;">
 					<!-- Brand Logo -->
-					<div style="flex: 2;">
+					<div style="flex: 2; animation-delay: 0s;" class="slide-left">
 						<div class="brand-logo-column text-center" style="padding: 20px; padding-top: 80px;">
 							<img src="assets/images/logo.png" alt="Area 24 Brand Logo"
 								style="width: 100%; max-width: 300px; height: auto;">
@@ -590,7 +636,7 @@
 					</div>
 
 					<!-- Certificate 1 -->
-					<div style="flex: 1;">
+					<div style="flex: 1; animation-delay: 0.3s;" class="slide-right">
 						<div class="cert-item text-left" style="margin-bottom: 20px; padding-top: 40px;">
 							<div class="icon-box" style="margin-bottom: 15px; text-align: left;">
 								<img src="assets/images/gst stamp (2).png" alt="GST Certificate" style="width: 100%; max-width: 200px; height: auto; margin-left: -40px;">
@@ -601,7 +647,7 @@
 					</div>
 
 					<!-- Certificate 2 -->
-					<div style="flex: 1;">
+					<div style="flex: 1; animation-delay: 0.6s;" class="slide-bottom">
 						<div class="cert-item text-center" style="margin-bottom: 20px; padding-top: 160px;">
 							<div class="icon-box" style="margin-bottom: 15px;">
 								<img src="assets/images/startup-india-hub-seeklogo.png" alt="Startup India Hub Certificate" style="width: 100%; max-width: 200px; height: auto;">
@@ -611,7 +657,7 @@
 					</div>
 
 					<!-- Certificate 3 -->
-					<div style="flex: 1;">
+					<div style="flex: 1; animation-delay: 0.9s;" class="slide-top">
 						<div class="cert-item text-center" style="margin-bottom: 20px; padding-top: 150px;">
 							<div class="icon-box" style="margin-bottom: 15px;">
 								<img src="assets/images/msme-seeklogo.png" alt="MSME Certificate" style="width: 100%; max-width: 200px; height: auto;">
