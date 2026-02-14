@@ -212,7 +212,7 @@
 									</li>
 									<li><a href="blog.html">Blog</a></li>
 									<li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -271,7 +271,7 @@
 									</li>
 									<li><a href="blog.html">Blog</a></li>
 									<li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -573,50 +573,26 @@
 		<!--End About Section-->
 		<!--Certificates Section-->
 		<style>
-			@keyframes slideFromLeft {
+			@keyframes slideUp {
 				from {
-					transform: translateX(-100%);
+					transform: translateY(50px);
 					opacity: 0;
 				}
-				to {
-					transform: translateX(0);
-					opacity: 1;
-				}
-			}
-			@keyframes slideFromRight {
-				from {
-					transform: translateX(100%);
-					opacity: 0;
-				}
-				to {
-					transform: translateX(0);
-					opacity: 1;
-				}
-			}
-			@keyframes slideFromBottom {
-				from {
-					transform: translateY(100%);
-					opacity: 0;
-				}
+
 				to {
 					transform: translateY(0);
 					opacity: 1;
 				}
 			}
-			@keyframes slideFromTop {
-				from {
-					transform: translateY(-100%);
-					opacity: 0;
-				}
-				to {
-					transform: translateY(0);
-					opacity: 1;
-				}
+
+			.animate-slide-up {
+				opacity: 0;
+				transform: translateY(50px);
 			}
-			.slide-left { animation: slideFromLeft 1.5s ease-out forwards; }
-			.slide-right { animation: slideFromRight 1.5s ease-out forwards; }
-			.slide-bottom { animation: slideFromBottom 1.5s ease-out forwards; }
-			.slide-top { animation: slideFromTop 1.5s ease-out forwards; }
+
+			.animate-slide-up.start-animation {
+				animation: slideUp 0.8s ease-out forwards;
+			}
 		</style>
 		<section class="certificates-section" style="padding: 60px 0;">
 			<div class="auto-container">
@@ -625,46 +601,100 @@
 					<div class="separator"></div>
 					<div class="text">Trusted by leading brands and certified for quality.</div>
 				</div>
-				<div class="row clearfix" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; gap: 10px;">
+				<div class="row clearfix"
+					style="display: flex; flex-wrap: wrap; align-items: stretch; justify-content: center; gap: 30px;">
+
+					<!-- Common Styles for Items -->
+					<style>
+						.cert-column {
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							justify-content: flex-start;
+							width: 220px;
+							/* Fixed width for uniformity */
+							text-align: center;
+						}
+
+						.cert-image-wrapper {
+							height: 200px;
+							/* Fixed height for image area */
+							width: 100%;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							margin-bottom: 20px;
+						}
+
+						.cert-image-wrapper img {
+							max-width: 100%;
+							max-height: 100%;
+							width: auto;
+							height: auto;
+							object-fit: contain;
+						}
+
+						.cert-text h5 {
+							font-weight: 600;
+							margin: 0;
+							line-height: 1.4;
+							min-height: 2.8em;
+							/* Ensure 2 lines of text align with 1 line */
+							display: flex;
+							align-items: flex-start;
+							justify-content: center;
+						}
+					</style>
+
 					<!-- Brand Logo -->
-					<div style="flex: 2; animation-delay: 0s;" class="slide-left">
-						<div class="brand-logo-column text-center" style="padding: 20px; padding-top: 80px;">
-							<img src="assets/images/logo.png" alt="Area 24 Brand Logo"
-								style="width: 100%; max-width: 300px; height: auto;">
-							<h5 style="font-weight: 600; margin-bottom: 5px; margin-top: 45px;">Logo</h5>
+					<div class="animate-slide-up" style="animation-delay: 0s;">
+						<div class="cert-column">
+							<div class="cert-image-wrapper">
+								<img src="assets/images/logo.png" alt="Area 24 Brand Logo">
+							</div>
+							<div class="cert-text">
+								<h5>Logo</h5>
+							</div>
 						</div>
 					</div>
 
 					<!-- Certificate 1 -->
-					<div style="flex: 1; animation-delay: 0.3s;" class="slide-right">
-						<div class="cert-item text-left" style="margin-bottom: 20px; padding-top: 40px;">
-							<div class="icon-box" style="margin-bottom: 15px; text-align: left;">
-								<img src="assets/images/gst stamp (2).png" alt="GST Certificate" style="width: 100%; max-width: 200px; height: auto; margin-left: -40px;">
+					<div class="animate-slide-up" style="animation-delay: 0.2s;">
+						<div class="cert-column">
+							<div class="cert-image-wrapper">
+								<img src="assets/images/gst stamp (2).png" alt="GST Certificate">
 							</div>
-							<h5 style="font-weight: 600; margin-bottom: 5px; margin-top: 15px;">Registration<br>Certificate
-							</h5>
+							<div class="cert-text">
+								<h5>Registration<br>Certificate</h5>
+							</div>
 						</div>
 					</div>
 
 					<!-- Certificate 2 -->
-					<div style="flex: 1; animation-delay: 0.6s;" class="slide-bottom">
-						<div class="cert-item text-center" style="margin-bottom: 20px; padding-top: 160px;">
-							<div class="icon-box" style="margin-bottom: 15px;">
-								<img src="assets/images/startup-india-hub-seeklogo.png" alt="Startup India Hub Certificate" style="width: 100%; max-width: 200px; height: auto;">
+					<div class="animate-slide-up" style="animation-delay: 0.4s;">
+						<div class="cert-column">
+							<div class="cert-image-wrapper">
+								<img src="assets/images/startup-india-hub-seeklogo.png"
+									alt="Startup India Hub Certificate">
 							</div>
-							<h5 style="font-weight: 600; margin-bottom: 5px; margin-top: 150px;">Startup India<br>Certification</h5>
+							<div class="cert-text">
+								<h5>Startup India<br>Certification</h5>
+							</div>
 						</div>
 					</div>
 
 					<!-- Certificate 3 -->
-					<div style="flex: 1; animation-delay: 0.9s;" class="slide-top">
-						<div class="cert-item text-center" style="margin-bottom: 20px; padding-top: 150px;">
-							<div class="icon-box" style="margin-bottom: 15px;">
-								<img src="assets/images/msme-seeklogo.png" alt="MSME Certificate" style="width: 100%; max-width: 200px; height: auto;">
+					<div class="animate-slide-up" style="animation-delay: 0.6s;">
+						<div class="cert-column">
+							<div class="cert-image-wrapper">
+								<img src="assets/images/msme-seeklogo.png" alt="MSME Certificate">
 							</div>
-							<h5 style="font-weight: 600; margin-bottom: 5px; margin-top: 130px;">MSME<br>Certification</h5>
+							<div class="cert-text">
+								<h5>MSME<br>Certification</h5>
+							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</section>
@@ -715,20 +745,24 @@
 				position: relative;
 				overflow: hidden;
 			}
+
 			.inner-box:hover {
 				background-color: #b99976;
 				transform: translateY(-10px);
 				box-shadow: 0 15px 40px rgb(0 0 0 / 30%);
 			}
+
 			.inner-box:hover h3 a,
 			.inner-box:hover .text,
 			.inner-box:hover .read-more,
 			.inner-box:hover .read-more .fa {
 				color: #fff;
 			}
+
 			.inner-box:hover .icon-box img {
 				filter: invert(1);
 			}
+
 			.inner-box .text {
 				opacity: 0;
 				transform: translateY(20px);
@@ -737,19 +771,23 @@
 				margin-bottom: 20px;
 				font-size: 15px;
 			}
+
 			.inner-box:hover .text {
 				opacity: 1;
 				transform: translateY(0);
 			}
+
 			.inner-box h3 {
 				margin-bottom: 15px;
 				font-weight: 600;
 			}
+
 			.inner-box h3 a {
 				color: #333;
 				text-decoration: none;
 				transition: all 0.3s ease;
 			}
+
 			.inner-box .read-more {
 				opacity: 0;
 				transform: translateY(20px);
@@ -759,6 +797,7 @@
 				font-size: 13px;
 				letter-spacing: 0.5px;
 			}
+
 			.inner-box:hover .read-more {
 				opacity: 1;
 				transform: translateY(0);
@@ -773,24 +812,29 @@
 					<div class="sec-title light centered" style="margin-bottom: 60px;">
 						<h2>What We Do</h2>
 						<div class="separator"></div>
-						<p style="color: rgba(255,255,255,0.8); font-size: 16px; margin-top: 15px;">Comprehensive design and construction solutions tailored to your vision</p>
+						<p style="color: rgba(255,255,255,0.8); font-size: 16px; margin-top: 15px;">Comprehensive design
+							and construction solutions tailored to your vision</p>
 					</div>
 					<div class="row clearfix" style="margin: 0 -15px;">
 						<!--Services Block One-->
-						<div class="services-block-one col-md-4 col-sm-6 col-xs-12" style="padding: 0 15px; margin-bottom: 30px;">
+						<div class="services-block-one col-md-4 col-sm-6 col-xs-12"
+							style="padding: 0 15px; margin-bottom: 30px;">
 							<div class="inner-box">
 								<div class="icon-box">
 									<img src="assets/images/icons/interior.png" alt="Interior Design">
 								</div>
 								<h3><a href="interiordesign.html">Interior Design</a></h3>
-								<div class="text">Transform your spaces into stunning environments that perfectly balance aesthetic beauty with practical functionality. From residential to commercial projects.</div>
+								<div class="text">Transform your spaces into stunning environments that perfectly
+									balance aesthetic beauty with practical functionality. From residential to
+									commercial projects.</div>
 								<a class="read-more" href="interiordesign.html">read more <span
 										class="icon fa fa-angle-double-right"></span></a>
 							</div>
 						</div>
 
 						<!--Services Block Two-->
-						<div class="services-block-two col-md-4 col-sm-6 col-xs-12" style="padding: 0 15px; margin-bottom: 30px;">
+						<div class="services-block-two col-md-4 col-sm-6 col-xs-12"
+							style="padding: 0 15px; margin-bottom: 30px;">
 							<div class="inner-box">
 								<div class="icon-box">
 									<img src="assets/images/icons/design.png" alt="Turnkey Solutions">
@@ -804,13 +848,16 @@
 						</div>
 
 						<!--Services Block Three-->
-						<div class="services-block-three col-md-4 col-sm-6 col-xs-12" style="padding: 0 15px; margin-bottom: 30px;">
+						<div class="services-block-three col-md-4 col-sm-6 col-xs-12"
+							style="padding: 0 15px; margin-bottom: 30px;">
 							<div class="inner-box">
 								<div class="icon-box">
 									<img src="assets/images/icons/design.png" alt="Consultation">
 								</div>
 								<h3><a href="vastuconsultancy.html">Consultation</a></h3>
-								<div class="text">Expert guidance for your design and construction projects. Our experienced consultants provide valuable insights and strategic advice to ensure project success.</div>
+								<div class="text">Expert guidance for your design and construction projects. Our
+									experienced consultants provide valuable insights and strategic advice to ensure
+									project success.</div>
 								<a class="read-more" href="vastuconsultancy.html">read more <span
 										class="icon fa fa-angle-double-right"></span></a>
 							</div>
@@ -1229,8 +1276,8 @@
 												<li><a href="about.html">About</a></li>
 												<li><a href="interiordesign.html">Gallery</a></li>
 												<li><a href="blog.html">Blog</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+												<li><a href="faq.html">FAQ</a></li>
+												<li><a href="contact.html">Contact</a></li>
 											</ul>
 										</div>
 									</div>
@@ -1405,6 +1452,22 @@
 				}
 				$('.loader-percentage').text(Math.round(percentage) + '%');
 			}, 150);
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var observer = new IntersectionObserver(function (entries) {
+				entries.forEach(function (entry) {
+					if (entry.isIntersecting) {
+						entry.target.classList.add("start-animation");
+						observer.unobserve(entry.target);
+					}
+				});
+			}, { threshold: 0.1 });
+
+			document.querySelectorAll(".animate-slide-up").forEach(function (el) {
+				observer.observe(el);
+			});
 		});
 	</script>
 </body>
